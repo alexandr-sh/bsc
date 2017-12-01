@@ -1095,7 +1095,7 @@ switch ($category) {
 		
 		case $type164:
 		if((count(searchavailspec($allspec, $spec700166))+count(searchavailspec($allspec, $spec166))+count(searchavailspec($allspec, $spec173)))>=10){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геодезические изыскания</b> меньше 10</font>";
@@ -1104,7 +1104,7 @@ switch ($category) {
 		
 		case $type165:
 			if((count(searchavailspec($allspec, $spec700167))+count(searchavailspec($allspec, $spec167))+count(searchavailspec($allspec, $spec174)))>=10){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геологические изыскания</b> меньше 10</font>";
@@ -1113,7 +1113,7 @@ switch ($category) {
 		
 		case $type166:
 			if((count(searchavailspec($allspec, $spec700168))+count(searchavailspec($allspec, $spec168)))>=10){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-гидрометеорологические изыскания</b> меньше 10</font>";
@@ -1122,7 +1122,7 @@ switch ($category) {
 		
 		case $type167:
 			if((count(searchavailspec($allspec, $spec700169))+count(searchavailspec($allspec, $spec169)))>=10){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-экологические изыскания</b> меньше 10</font>";
@@ -1131,7 +1131,7 @@ switch ($category) {
 		
 		case $type168:
 			if((count(searchavailspec($allspec, $spec700170))+count(searchavailspec($allspec, $spec170)))>=10){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геотехнические изыскания</b> меньше 10</font>";
@@ -1140,7 +1140,7 @@ switch ($category) {
 		
 		case $type169:
 			if((count(searchavailspec($allspec, $spec171))+count(searchavailspec($allspec, $spec171)))>=10){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>обследование состояния грунтов оснований зданий и сооружений</b> меньше 10</font>";
@@ -1150,7 +1150,7 @@ switch ($category) {
 		case $type170:
 			if((count(searchavailspec($allspec, $spec700064))+count(searchavailspec($allspec, $spec64))+count(searchavailspec($allspec, $spec3)))>=1 or 
 			(count(searchavailspec($allspec, $spec4))+count(searchavailspec($allspec, $spec148))+count(searchavailspec($allspec, $spec17700129))+count(searchavailspec($allspec, $spec129))+count(searchavailspec($allspec, $spec275)))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного специалиста <b>ГАП</b> или <b>ГИП</b></font>";
@@ -1212,7 +1212,7 @@ switch ($category) {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста по <b>инженерно-техническим мероприятиям гражданской обороны</b></font>";
 				}
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;
 					
@@ -1221,7 +1221,7 @@ switch ($category) {
 		
 		case $type197:
 			if((searchavailspec($allspec, $spec700163)+searchavailspec($allspec, $spec163))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (генеральный план)</b></font>";
@@ -1230,7 +1230,7 @@ switch ($category) {
 		
 		case $type198:
 			if((searchavailspec($allspec, $spec252)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3)+searchavailspec($allspec, $spec700064))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (архитектурные решения)</b> либо <b>ГАПа</b></font>";
@@ -1239,7 +1239,7 @@ switch ($category) {
 		
 		case $type199:
 			if(searchavailspec($allspec, $spec139)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (сметная документация)</b></font>";
@@ -1248,7 +1248,7 @@ switch ($category) {
 		
 		case $type200:			
 		if((searchavailspec($allspec, $spec66)+searchavailspec($allspec, $spec17700066)+searchavailspec($allspec, $spec700066))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (конструктивные решения)</b></font>";
@@ -1260,7 +1260,7 @@ switch ($category) {
 		
 		case $type5435:
 			if((searchavailspec($allspec, $spec17700071)+searchavailspec($allspec, $spec700071)+searchavailspec($allspec, $spec71))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (холодоснабжение))</b></font>";
@@ -1269,7 +1269,7 @@ switch ($category) {
 		
 		case $type5436:
 			if((searchavailspec($allspec, $spec17700067)+searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -1278,7 +1278,7 @@ switch ($category) {
 		
 		case $type5438:
 			if((searchavailspec($allspec, $spec17700067)+searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -1287,7 +1287,7 @@ switch ($category) {
 		
 		case $type5441:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -1296,7 +1296,7 @@ switch ($category) {
 		
 		case $type5442:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -1305,7 +1305,7 @@ switch ($category) {
 		
 		case $type5443:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -1314,7 +1314,7 @@ switch ($category) {
 		
 		case $type5444:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -1322,7 +1322,7 @@ switch ($category) {
 		break;
 		case $type5453:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -1330,7 +1330,7 @@ switch ($category) {
 		break;
 		case $type5454:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -1339,7 +1339,7 @@ switch ($category) {
 		
 		case $type5439:
 			if((searchavailspec($allspec, $spec17700068)+searchavailspec($allspec, $spec700068)+searchavailspec($allspec, $spec68))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (отопление, вентиляция и кондиционирование воздуха))</b></font>";
@@ -1348,7 +1348,7 @@ switch ($category) {
 		
 		case $type5440:
 			if((searchavailspec($allspec, $spec17700068)+searchavailspec($allspec, $spec700068)+searchavailspec($allspec, $spec68))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (отопление, вентиляция и кондиционирование воздуха))</b></font>";
@@ -1357,7 +1357,7 @@ switch ($category) {
 		
 		case $type5437:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -1369,7 +1369,7 @@ switch ($category) {
 		
 		case $type5446:
 			if((searchavailspec($allspec, $spec17700070)+searchavailspec($allspec, $spec700070)+searchavailspec($allspec, $spec70))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (тепловые сети))</b></font>";
@@ -1378,7 +1378,7 @@ switch ($category) {
 		
 		case $type5447:
 			if((searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -1387,7 +1387,7 @@ switch ($category) {
 		
 		case $type5449:
 			if((searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -1396,7 +1396,7 @@ switch ($category) {
 		
 		case $type5450:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -1405,7 +1405,7 @@ switch ($category) {
 		
 		case $type5451:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -1413,7 +1413,7 @@ switch ($category) {
 		break;
 		case $type5455:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -1422,7 +1422,7 @@ switch ($category) {
 		
 		case $type5456:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -1431,7 +1431,7 @@ switch ($category) {
 		
 		case $type5448:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -1446,7 +1446,7 @@ switch ($category) {
 		
 		case $type5459:
 				if(searchavailspec($allspec, $spec249)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерно-технические мероприятия гражданской обороны. Мероприятия по предупреждению чрезвычайных ситуаций)</b></font>";
@@ -1454,7 +1454,7 @@ switch ($category) {
 		break;
 		case $type5460:
 				if(searchavailspec($allspec, $spec249)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерно-технические мероприятия гражданской обороны. Мероприятия по предупреждению чрезвычайных ситуаций)</b></font>";
@@ -1462,7 +1462,7 @@ switch ($category) {
 		break;
 		case $type5461:
 				if(searchavailspec($allspec, $spec249)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерно-технические мероприятия гражданской обороны. Мероприятия по предупреждению чрезвычайных ситуаций)</b></font>";
@@ -1471,7 +1471,7 @@ switch ($category) {
 		
 		case $type5462:
 			if((searchavailspec($allspec, $spec700164)+searchavailspec($allspec, $spec164))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (организация строительства)</b></font>";
@@ -1480,7 +1480,7 @@ switch ($category) {
 		
 		case $type5458:
 			if(searchavailspec($allspec, $spec248)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (охрана окружающей среды)</b></font>";
@@ -1546,7 +1546,7 @@ switch ($category) {
 				}
 					
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 		
@@ -1557,7 +1557,7 @@ switch ($category) {
 		searchavailspec($allspec, $spec146)+
 		searchavailspec($allspec, $spec24)+
 		searchavailspec($allspec, $spec17700024))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (общестроительные работы)</b></font>";
@@ -1568,7 +1568,7 @@ switch ($category) {
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -1579,7 +1579,7 @@ switch ($category) {
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -1592,7 +1592,7 @@ switch ($category) {
 		searchavailspec($allspec, $spec17700026)+
 		searchavailspec($allspec, $spec95)+
 		searchavailspec($allspec, $spec700095))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -1602,7 +1602,7 @@ switch ($category) {
 		case $type212:
 		if((searchavailspec($allspec, $spec700057)+
 		searchavailspec($allspec, $spec57))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области газоснабжения)</b></font>";
@@ -1613,7 +1613,7 @@ switch ($category) {
 		if((searchavailspec($allspec, $spec700030)+
 		searchavailspec($allspec, $spec30)+
 		searchavailspec($allspec, $spec17700030))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области электроснабжения и автоматизации)</b></font>";
@@ -1624,7 +1624,7 @@ switch ($category) {
 		if((searchavailspec($allspec, $spec700097)+
 		searchavailspec($allspec, $spec97)+
 		searchavailspec($allspec, $spec17700097))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области связи, сигнализации)</b></font>";
@@ -1635,7 +1635,7 @@ switch ($category) {
 		if((searchavailspec($allspec, $spec700033)+
 		searchavailspec($allspec, $spec33)+
 		searchavailspec($allspec, $spec17700033))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство автомобильных дорог и аэродромов, строительство мостов, транспортных эстакад и путепроводов)</b></font>";
@@ -1646,7 +1646,7 @@ switch ($category) {
 		if((searchavailspec($allspec, $spec700084)+
 		searchavailspec($allspec, $spec84)+
 		searchavailspec($allspec, $spec17700084))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство железных дорог)</b></font>";
@@ -1657,7 +1657,7 @@ switch ($category) {
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
 		searchavailspec($allspec, $spec17700085))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство сооружений транспортных тоннелей, метрополитенов)</b></font>";
@@ -1667,7 +1667,7 @@ switch ($category) {
 		case $type218:
 		if((searchavailspec($allspec, $spec700034)+
 		searchavailspec($allspec, $spec34))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (гидротехническое и мелиоративное строительство)</b></font>";
@@ -1679,7 +1679,7 @@ switch ($category) {
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
 		searchavailspec($allspec, $spec113))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (благоустройство территорий)</b></font>";
@@ -1691,7 +1691,7 @@ switch ($category) {
 		if((count(searchavailspec($allspec, $spec700064))+
 		count(searchavailspec($allspec, $spec3))+
 		count(searchavailspec($allspec, $spec64)))>=4 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов <b>ГАП</b> меньше 4</font>";
@@ -1833,7 +1833,7 @@ switch ($category) {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по сметной работе</b></font>";
 				}			
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 		
@@ -1924,7 +1924,7 @@ switch ($category) {
 		case $type229:
 				if((searchavailspec($allspec, $spec140)+searchavailspec($allspec, $spec142)+
 				searchavailspec($allspec, $spec700140)+searchavailspec($allspec, $spec700142))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>главного или ведущего геодезиста</b></font>";
@@ -1934,7 +1934,7 @@ switch ($category) {
 		case $type230:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -1969,7 +1969,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -1987,7 +1987,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2007,7 +2007,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2027,7 +2027,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2046,7 +2046,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2063,7 +2063,7 @@ switch ($category) {
 				+searchavailspec($allspec, $spec231)+searchavailspec($allspec, $spec237)
 				+searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223)
 				+searchavailspec($allspec, $spec11))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2097,7 +2097,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243)+
 				searchavailspec($allspec, $spec245)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2116,7 +2116,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2136,7 +2136,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec198)+searchavailspec($allspec, $spec196))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2147,7 +2147,7 @@ switch ($category) {
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec267)+searchavailspec($allspec, $spec271))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2157,7 +2157,7 @@ switch ($category) {
 		case $type241:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2167,7 +2167,7 @@ switch ($category) {
 		case $type242:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2177,7 +2177,7 @@ switch ($category) {
 		case $type243:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2198,7 +2198,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2230,7 +2230,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec233)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2242,7 +2242,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec210)+searchavailspec($allspec, $spec238)+
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2252,7 +2252,7 @@ switch ($category) {
 		case $type247:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2266,7 +2266,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec17700211)+searchavailspec($allspec, $spec17700239)+
 				searchavailspec($allspec, $spec211)+searchavailspec($allspec, $spec239)+				
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2278,7 +2278,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2290,7 +2290,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2302,7 +2302,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2326,7 +2326,7 @@ switch ($category) {
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;	
 
@@ -2345,7 +2345,7 @@ switch ($category) {
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;
 		
@@ -2362,7 +2362,7 @@ switch ($category) {
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;		
 		
@@ -2380,7 +2380,7 @@ switch ($category) {
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;		
 		
@@ -2390,7 +2390,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec17700243)+searchavailspec($allspec, $spec17700245)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec245)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec216))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2403,7 +2403,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec17700217)+searchavailspec($allspec, $spec17700215)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec217)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec246))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2415,7 +2415,7 @@ switch ($category) {
 		
 		case $type259:
 				if((searchavailspec($allspec, $spec13)+searchavailspec($allspec, $spec193)+searchavailspec($allspec, $spec221))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2425,7 +2425,7 @@ switch ($category) {
 		case $type260:
 				if((searchavailspec($allspec, $spec0)+searchavailspec($allspec, $spec16)+
 				searchavailspec($allspec, $spec218)+searchavailspec($allspec, $spec244))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2437,7 +2437,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec206)+searchavailspec($allspec, $spec207)+
 				searchavailspec($allspec, $spec17700234)+searchavailspec($allspec, $spec235)+
 				searchavailspec($allspec, $spec222)+searchavailspec($allspec, $spec234))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2448,7 +2448,7 @@ switch ($category) {
 				if((searchavailspec($allspec, $spec19)+searchavailspec($allspec, $spec41)+
 				searchavailspec($allspec, $spec194)+searchavailspec($allspec, $spec198)+
 				searchavailspec($allspec, $spec226))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2459,7 +2459,7 @@ switch ($category) {
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2470,7 +2470,7 @@ switch ($category) {
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2481,7 +2481,7 @@ switch ($category) {
 				if((searchavailspec($allspec, $spec710112)+searchavailspec($allspec, $spec112)+
 				searchavailspec($allspec, $spec20112)+searchavailspec($allspec, $spec192)+
 				searchavailspec($allspec, $spec220))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2491,7 +2491,7 @@ switch ($category) {
 		case $type266:
 				if((searchavailspec($allspec, $spec82)+searchavailspec($allspec, $spec196)+
 				searchavailspec($allspec, $spec224))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2502,7 +2502,7 @@ switch ($category) {
 				if((searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec83)+
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2519,7 +2519,7 @@ switch ($category) {
 		case $type270:
 						if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)
 					+searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2532,7 +2532,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -2545,7 +2545,7 @@ switch ($category) {
 					+count(searchavailspec($allspec, $spec800135))+
 					count(searchavailspec($allspec, $spec93))+
 				count(searchavailspec($allspec, $spec17700135)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -2555,7 +2555,7 @@ switch ($category) {
 		
 		case $type273:
 				if(count(searchavailspec($allspec, $spec250))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно специалистов, осуществляющих <b>обследование автомобильных дорог и мостовых сооружений</b></font>";
@@ -2571,7 +2571,7 @@ switch ($category) {
 				count(searchavailspec($allspec, $spec257))+
 				count(searchavailspec($allspec, $spec258))
 				+count(searchavailspec($allspec, $spec259)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -2600,7 +2600,7 @@ case $type5594:
 		
 		case $type5595:
 		if((count(searchavailspec($allspec, $spec700166))+count(searchavailspec($allspec, $spec166))+count(searchavailspec($allspec, $spec173)))>=10){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геодезические изыскания</b> меньше 10</font>";
@@ -2609,7 +2609,7 @@ case $type5594:
 			
 		case $type5616:
 			if((count(searchavailspec($allspec, $spec700167))+count(searchavailspec($allspec, $spec167))+count(searchavailspec($allspec, $spec174)))>=10){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геологические изыскания</b> меньше 10</font>";
@@ -2618,7 +2618,7 @@ case $type5594:
 		
 		case $type5625:
 			if((count(searchavailspec($allspec, $spec700168))+count(searchavailspec($allspec, $spec168)))>=10){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-гидрометеорологические изыскания</b> меньше 10</font>";
@@ -2627,7 +2627,7 @@ case $type5594:
 			
 		case $type5630:
 			if((count(searchavailspec($allspec, $spec700169))+count(searchavailspec($allspec, $spec169)))>=10){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-экологические изыскания</b> меньше 10</font>";
@@ -2636,7 +2636,7 @@ case $type5594:
 		
 		case $type5647:
 			if((count(searchavailspec($allspec, $spec700170))+count(searchavailspec($allspec, $spec170)))>=10){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геотехнические изыскания</b> меньше 10</font>";
@@ -2658,7 +2658,7 @@ case $type5594:
 		
 		case $type5654:
 			if((count(searchavailspec($allspec, $spec171))+count(searchavailspec($allspec, $spec171)))>=10){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>обследование состояния грунтов оснований зданий и сооружений</b> меньше 10</font>";
@@ -2667,7 +2667,7 @@ case $type5594:
 			
 		case $type5655:
 			if((searchavailspec($allspec, $spec700064)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3))>=1 or (searchavailspec($allspec, $spec4)+searchavailspec($allspec, $spec148)+searchavailspec($allspec, $spec17700129)+searchavailspec($allspec, $spec129)+searchavailspec($allspec, $spec275))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного специалиста <b>ГАП</b> или <b>ГИП</b></font>";
@@ -2728,13 +2728,13 @@ case $type5594:
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста по <b>инженерно-техническим мероприятиям гражданской обороны</b></font>";
 				}
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;		
 		
 		case $type5658:
 			if((searchavailspec($allspec, $spec700163)+searchavailspec($allspec, $spec163))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (генеральный план)</b></font>";
@@ -2743,7 +2743,7 @@ case $type5594:
 			
 		case $type5659:
 			if((searchavailspec($allspec, $spec252)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3)+searchavailspec($allspec, $spec700064))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (архитектурные решения)</b> либо <b>ГАПа</b></font>";
@@ -2752,7 +2752,7 @@ case $type5594:
 				
 		case $type5660:
 			if(searchavailspec($allspec, $spec139)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (сметная документация)</b></font>";
@@ -2761,7 +2761,7 @@ case $type5594:
 		
 		case $type5661:
 		if((searchavailspec($allspec, $spec66)+searchavailspec($allspec, $spec17700066)+searchavailspec($allspec, $spec700066))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (конструктивные решения)</b></font>";
@@ -2773,7 +2773,7 @@ case $type5594:
 		
 		case $type5664:
 			if((searchavailspec($allspec, $spec17700071)+searchavailspec($allspec, $spec700071)+searchavailspec($allspec, $spec71))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (холодоснабжение))</b></font>";
@@ -2782,7 +2782,7 @@ case $type5594:
 				
 		case type5665:
 			if((searchavailspec($allspec, $spec17700067)+searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -2791,7 +2791,7 @@ case $type5594:
 		
 		case $type5666:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -2800,7 +2800,7 @@ case $type5594:
 				
 		case $type5667:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -2809,7 +2809,7 @@ case $type5594:
 		
 		case $type5663:
 			if((searchavailspec($allspec, $spec17700068)+searchavailspec($allspec, $spec700068)+searchavailspec($allspec, $spec68))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (отопление, вентиляция и кондиционирование воздуха))</b></font>";
@@ -2818,7 +2818,7 @@ case $type5594:
 				
 		case $type5669:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -2830,7 +2830,7 @@ case $type5594:
 		
 		case $type5671:
 			if((searchavailspec($allspec, $spec17700070)+searchavailspec($allspec, $spec700070)+searchavailspec($allspec, $spec70))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (тепловые сети))</b></font>";
@@ -2839,7 +2839,7 @@ case $type5594:
 			
 		case $type5672:
 			if((searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -2848,7 +2848,7 @@ case $type5594:
 		
 		case $type5673:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -2857,7 +2857,7 @@ case $type5594:
 		
 		case $type5674:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -2866,7 +2866,7 @@ case $type5594:
 
 		case $type5675:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -2878,7 +2878,7 @@ case $type5594:
 		
 		case $type5678:
 			if((searchavailspec($allspec, $spec700164)+searchavailspec($allspec, $spec164))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (организация строительства)</b></font>";
@@ -2887,7 +2887,7 @@ case $type5594:
 		
 		case $type5679:
 			if(searchavailspec($allspec, $spec248)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (охрана окружающей среды)</b></font>";
@@ -2953,7 +2953,7 @@ case $type5594:
 				}
 					
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;		
 		
@@ -2964,7 +2964,7 @@ case $type5594:
 		searchavailspec($allspec, $spec146)+
 		searchavailspec($allspec, $spec24)+
 		searchavailspec($allspec, $spec17700024))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (общестроительные работы)</b></font>";
@@ -2975,7 +2975,7 @@ case $type5594:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -2986,7 +2986,7 @@ case $type5594:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -2996,7 +2996,7 @@ case $type5594:
 		case $type5686:
 		if(
 		searchavailspec($allspec, $spec277)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (устройство систем холодоснабжения)</b></font>";
@@ -3009,7 +3009,7 @@ case $type5594:
 		searchavailspec($allspec, $spec17700026)+
 		searchavailspec($allspec, $spec95)+
 		searchavailspec($allspec, $spec700095))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -3019,7 +3019,7 @@ case $type5594:
 		case $type5688:
 		if((searchavailspec($allspec, $spec700057)+
 		searchavailspec($allspec, $spec57))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области газоснабжения)</b></font>";
@@ -3030,7 +3030,7 @@ case $type5594:
 		if((searchavailspec($allspec, $spec700030)+
 		searchavailspec($allspec, $spec30)+
 		searchavailspec($allspec, $spec17700030))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области электроснабжения и автоматизации)</b></font>";
@@ -3041,7 +3041,7 @@ case $type5594:
 		if((searchavailspec($allspec, $spec700097)+
 		searchavailspec($allspec, $spec97)+
 		searchavailspec($allspec, $spec17700097))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области связи, сигнализации)</b></font>";
@@ -3052,7 +3052,7 @@ case $type5594:
 		if((searchavailspec($allspec, $spec700033)+
 		searchavailspec($allspec, $spec33)+
 		searchavailspec($allspec, $spec17700033))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство автомобильных дорог и аэродромов, строительство мостов, транспортных эстакад и путепроводов)</b></font>";
@@ -3063,7 +3063,7 @@ case $type5594:
 		if((searchavailspec($allspec, $spec700084)+
 		searchavailspec($allspec, $spec84)+
 		searchavailspec($allspec, $spec17700084))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство железных дорог)</b></font>";
@@ -3074,7 +3074,7 @@ case $type5594:
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
 		searchavailspec($allspec, $spec17700085))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство сооружений транспортных тоннелей, метрополитенов)</b></font>";
@@ -3084,7 +3084,7 @@ case $type5594:
 		case $type5694:
 		if((searchavailspec($allspec, $spec700034)+
 		searchavailspec($allspec, $spec34))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (гидротехническое и мелиоративное строительство)</b></font>";
@@ -3096,7 +3096,7 @@ case $type5594:
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
 		searchavailspec($allspec, $spec113))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (благоустройство территорий)</b></font>";
@@ -3106,7 +3106,7 @@ case $type5594:
 		
 		case $type5696:
 		if(searchavailspec($allspec, $spec276)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (монтаж технологических трубопроводов и оборудования)</b></font>";
@@ -3117,7 +3117,7 @@ case $type5594:
 		if((searchavailspec($allspec, $spec700061)+
 		searchavailspec($allspec, $spec17700061)+
 		searchavailspec($allspec, $spec61))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (устройство магистральных трубопроводов для транспортирования нефти, газа, нефтепродуктов)</b></font>";
@@ -3128,7 +3128,7 @@ case $type5594:
 		if((count(searchavailspec($allspec, $spec700064))+
 		count(searchavailspec($allspec, $spec3))+
 		count(searchavailspec($allspec, $spec64)))>=4 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов <b>ГАП</b> меньше 4</font>";
@@ -3273,7 +3273,7 @@ case $type5594:
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по сметной работе</b></font>";
 				}			
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;		
 		
@@ -3394,7 +3394,7 @@ case $type5594:
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по сметной работе</b></font>";
 				}			
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;		
 
@@ -3405,7 +3405,7 @@ case $type5594:
 		case $type5709:
 				if((searchavailspec($allspec, $spec140)+searchavailspec($allspec, $spec142)+
 				searchavailspec($allspec, $spec700140)+searchavailspec($allspec, $spec700142))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>главного или ведущего геодезиста</b></font>";
@@ -3416,7 +3416,7 @@ case $type5594:
 		case $type5710:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3451,7 +3451,7 @@ case $type5594:
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3469,7 +3469,7 @@ case $type5594:
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3489,7 +3489,7 @@ case $type5594:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3509,7 +3509,7 @@ case $type5594:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3528,7 +3528,7 @@ case $type5594:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3537,7 +3537,7 @@ case $type5594:
 		
 		case $type5716:
 				if((searchavailspec($allspec, $spec270)+searchavailspec($allspec, $spec274))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3571,7 +3571,7 @@ case $type5594:
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243)+
 				searchavailspec($allspec, $spec245)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3590,7 +3590,7 @@ case $type5594:
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3610,7 +3610,7 @@ case $type5594:
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec198)+searchavailspec($allspec, $spec196))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3621,7 +3621,7 @@ case $type5594:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec267)+searchavailspec($allspec, $spec271))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3631,7 +3631,7 @@ case $type5594:
 		case $type5721:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3641,7 +3641,7 @@ case $type5594:
 		case $type5722:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3651,7 +3651,7 @@ case $type5594:
 		case $type5723:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3672,7 +3672,7 @@ case $type5594:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3704,7 +3704,7 @@ case $type5594:
 				searchavailspec($allspec, $spec233)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3717,7 +3717,7 @@ case $type5594:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec210)+searchavailspec($allspec, $spec238)+
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3727,7 +3727,7 @@ case $type5594:
 		case $type5727:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3740,7 +3740,7 @@ case $type5594:
 				searchavailspec($allspec, $spec17700211)+searchavailspec($allspec, $spec17700239)+
 				searchavailspec($allspec, $spec211)+searchavailspec($allspec, $spec239)+				
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3752,7 +3752,7 @@ case $type5594:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3764,7 +3764,7 @@ case $type5594:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3776,7 +3776,7 @@ case $type5594:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3800,7 +3800,7 @@ case $type5594:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;
 
@@ -3819,7 +3819,7 @@ case $type5594:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;
 		
@@ -3836,7 +3836,7 @@ case $type5594:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;			
 
@@ -3854,7 +3854,7 @@ case $type5594:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;		
 		
@@ -3864,7 +3864,7 @@ case $type5594:
 				searchavailspec($allspec, $spec17700243)+searchavailspec($allspec, $spec17700245)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec245)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec216))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3877,7 +3877,7 @@ case $type5594:
 				searchavailspec($allspec, $spec17700217)+searchavailspec($allspec, $spec17700215)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec217)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec246))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3887,7 +3887,7 @@ case $type5594:
 		case $type5738:
 				if((searchavailspec($allspec, $spec13)+searchavailspec($allspec, $spec193)+
 				searchavailspec($allspec, $spec221))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3897,7 +3897,7 @@ case $type5594:
 		case $type5739:
 				if((searchavailspec($allspec, $spec0)+searchavailspec($allspec, $spec16)+
 				searchavailspec($allspec, $spec218)+searchavailspec($allspec, $spec244))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3910,7 +3910,7 @@ case $type5594:
 				searchavailspec($allspec, $spec206)+searchavailspec($allspec, $spec207)+
 				searchavailspec($allspec, $spec17700234)+searchavailspec($allspec, $spec235)+
 				searchavailspec($allspec, $spec222)+searchavailspec($allspec, $spec234))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3922,7 +3922,7 @@ case $type5594:
 				if((searchavailspec($allspec, $spec19)+searchavailspec($allspec, $spec41)+
 				searchavailspec($allspec, $spec194)+searchavailspec($allspec, $spec198)+
 				searchavailspec($allspec, $spec226))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3933,7 +3933,7 @@ case $type5594:
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3945,7 +3945,7 @@ case $type5594:
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3957,7 +3957,7 @@ case $type5594:
 				if((searchavailspec($allspec, $spec710112)+searchavailspec($allspec, $spec112)+
 				searchavailspec($allspec, $spec20112)+searchavailspec($allspec, $spec192)+
 				searchavailspec($allspec, $spec220))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3968,7 +3968,7 @@ case $type5594:
 		case $type5745:
 				if((searchavailspec($allspec, $spec82)+searchavailspec($allspec, $spec196)+
 				searchavailspec($allspec, $spec224))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3980,7 +3980,7 @@ case $type5594:
 				if((searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec83)+
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -3990,7 +3990,7 @@ case $type5594:
 
 		case $type5747:	
 				if((searchavailspec($allspec, $spec269)+searchavailspec($allspec, $spec273))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -4000,7 +4000,7 @@ case $type5594:
 		case $type5748:	
 				if((searchavailspec($allspec, $spec17)+searchavailspec($allspec, $spec214)
 					+searchavailspec($allspec, $spec242))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -4010,7 +4010,7 @@ case $type5594:
 		case $type5749:
 						if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)
 					+searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -4023,7 +4023,7 @@ case $type5594:
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -4032,7 +4032,7 @@ case $type5594:
 
 		case $type5751:
 				if((searchavailspec($allspec, $spec268)+searchavailspec($allspec, $spec272))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -4047,7 +4047,7 @@ case $type5901:
 				if((count(searchavailspec($allspec, $spec700093))+count(searchavailspec($allspec, $spec700135))
 					+count(searchavailspec($allspec, $spec800135))+count(searchavailspec($allspec, $spec93))+
 				count(searchavailspec($allspec, $spec17700135)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -4057,7 +4057,7 @@ case $type5901:
 		
 		case $type5903:
 				if(count(searchavailspec($allspec, $spec250))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно специалистов, осуществляющих <b>обследование автомобильных дорог и мостовых сооружений</b></font>";
@@ -4070,7 +4070,7 @@ case $type5901:
 					+count(searchavailspec($allspec, $spec255))+count(searchavailspec($allspec, $spec256))+
 				count(searchavailspec($allspec, $spec257))+count(searchavailspec($allspec, $spec258))
 				+count(searchavailspec($allspec, $spec259)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -4104,7 +4104,7 @@ case $type5901:
 		
 		case $type164:
 		if((count(searchavailspec($allspec, $spec700166))+count(searchavailspec($allspec, $spec166))+count(searchavailspec($allspec, $spec173)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геодезические изыскания</b> меньше 5</font>";
@@ -4113,7 +4113,7 @@ case $type5901:
 		
 		case $type165:
 			if((count(searchavailspec($allspec, $spec700167))+count(searchavailspec($allspec, $spec167))+count(searchavailspec($allspec, $spec174)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геологические изыскания</b> меньше 5</font>";
@@ -4122,7 +4122,7 @@ case $type5901:
 		
 		case $type166:
 			if((count(searchavailspec($allspec, $spec700168))+count(searchavailspec($allspec, $spec168)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-гидрометеорологические изыскания</b> меньше 5</font>";
@@ -4131,7 +4131,7 @@ case $type5901:
 		
 		case $type167:
 			if((count(searchavailspec($allspec, $spec700169))+count(searchavailspec($allspec, $spec169)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-экологические изыскания</b> меньше 5</font>";
@@ -4140,7 +4140,7 @@ case $type5901:
 		
 		case $type168:
 			if((count(searchavailspec($allspec, $spec700170))+count(searchavailspec($allspec, $spec170)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геотехнические изыскания</b> меньше 5</font>";
@@ -4149,7 +4149,7 @@ case $type5901:
 		
 		case $type169:
 			if((count(searchavailspec($allspec, $spec171))+count(searchavailspec($allspec, $spec171)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>обследование состояния грунтов оснований зданий и сооружений</b> меньше 5</font>";
@@ -4158,7 +4158,7 @@ case $type5901:
 		
 		case $type170:
 			if((searchavailspec($allspec, $spec700064)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3))>=1 or (searchavailspec($allspec, $spec4)+searchavailspec($allspec, $spec148)+searchavailspec($allspec, $spec17700129)+searchavailspec($allspec, $spec129)+searchavailspec($allspec, $spec275))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного специалиста <b>ГАП</b> или <b>ГИП</b></font>";
@@ -4221,7 +4221,7 @@ case $type5901:
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста по <b>инженерно-техническим мероприятиям гражданской обороны</b></font>";
 				}
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;
 					
@@ -4230,7 +4230,7 @@ case $type5901:
 		
 		case $type197:
 			if((searchavailspec($allspec, $spec700163)+searchavailspec($allspec, $spec163))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (генеральный план)</b></font>";
@@ -4240,7 +4240,7 @@ case $type5901:
 		
 		case $type198:
 			if((searchavailspec($allspec, $spec252)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3)+searchavailspec($allspec, $spec700064))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (архитектурные решения)</b> либо <b>ГАПа</b></font>";
@@ -4250,7 +4250,7 @@ case $type5901:
 				
 		case $type199:
 			if(searchavailspec($allspec, $spec139)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (сметная документация)</b></font>";
@@ -4260,7 +4260,7 @@ case $type5901:
 		
 		case $type200:			
 		if((searchavailspec($allspec, $spec66)+searchavailspec($allspec, $spec17700066)+searchavailspec($allspec, $spec700066))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (конструктивные решения)</b></font>";
@@ -4272,7 +4272,7 @@ case $type5901:
 		break;
 		case $type5435:
 			if((searchavailspec($allspec, $spec17700071)+searchavailspec($allspec, $spec700071)+searchavailspec($allspec, $spec71))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (холодоснабжение))</b></font>";
@@ -4282,7 +4282,7 @@ case $type5901:
 				
 		case $type5436:
 			if((searchavailspec($allspec, $spec17700067)+searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -4291,7 +4291,7 @@ case $type5901:
 		
 		case $type5438:
 			if((searchavailspec($allspec, $spec17700067)+searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -4300,7 +4300,7 @@ case $type5901:
 		
 		case $type5441:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -4309,7 +4309,7 @@ case $type5901:
 		
 		case $type5442:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -4318,7 +4318,7 @@ case $type5901:
 		
 		case $type5443:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -4327,7 +4327,7 @@ case $type5901:
 		
 		case $type5444:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -4335,7 +4335,7 @@ case $type5901:
 		break;
 		case $type5453:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -4343,7 +4343,7 @@ case $type5901:
 		break;
 		case $type5454:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -4352,7 +4352,7 @@ case $type5901:
 		
 		case $type5439:
 			if((searchavailspec($allspec, $spec17700068)+searchavailspec($allspec, $spec700068)+searchavailspec($allspec, $spec68))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (отопление, вентиляция и кондиционирование воздуха))</b></font>";
@@ -4361,7 +4361,7 @@ case $type5901:
 		
 		case $type5440:
 			if((searchavailspec($allspec, $spec17700068)+searchavailspec($allspec, $spec700068)+searchavailspec($allspec, $spec68))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (отопление, вентиляция и кондиционирование воздуха))</b></font>";
@@ -4370,7 +4370,7 @@ case $type5901:
 		
 		case $type5437:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -4382,7 +4382,7 @@ case $type5901:
 		
 		case $type5446:
 			if((searchavailspec($allspec, $spec17700070)+searchavailspec($allspec, $spec700070)+searchavailspec($allspec, $spec70))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (тепловые сети))</b></font>";
@@ -4391,7 +4391,7 @@ case $type5901:
 		
 		case $type5447:
 			if((searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -4400,7 +4400,7 @@ case $type5901:
 		
 		case $type5449:
 			if((searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -4409,7 +4409,7 @@ case $type5901:
 		
 		case $type5450:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -4418,7 +4418,7 @@ case $type5901:
 		
 		case $type5451:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -4426,7 +4426,7 @@ case $type5901:
 		break;
 		case $type5455:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -4435,7 +4435,7 @@ case $type5901:
 		
 		case $type5456:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -4444,7 +4444,7 @@ case $type5901:
 		
 		case $type5448:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -4459,7 +4459,7 @@ case $type5901:
 		
 		case $type5459:
 				if(searchavailspec($allspec, $spec249)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерно-технические мероприятия гражданской обороны. Мероприятия по предупреждению чрезвычайных ситуаций)</b></font>";
@@ -4467,7 +4467,7 @@ case $type5901:
 		break;
 		case $type5460:
 				if(searchavailspec($allspec, $spec249)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерно-технические мероприятия гражданской обороны. Мероприятия по предупреждению чрезвычайных ситуаций)</b></font>";
@@ -4475,7 +4475,7 @@ case $type5901:
 		break;
 		case $type5461:
 				if(searchavailspec($allspec, $spec249)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерно-технические мероприятия гражданской обороны. Мероприятия по предупреждению чрезвычайных ситуаций)</b></font>";
@@ -4484,7 +4484,7 @@ case $type5901:
 		
 		case $type5462:
 			if((searchavailspec($allspec, $spec700164)+searchavailspec($allspec, $spec164))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (организация строительства)</b></font>";
@@ -4493,7 +4493,7 @@ case $type5901:
 		
 		case $type5458:
 			if(searchavailspec($allspec, $spec248)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (охрана окружающей среды)</b></font>";
@@ -4560,7 +4560,7 @@ case $type5901:
 				}
 					
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 		
@@ -4571,7 +4571,7 @@ case $type5901:
 		searchavailspec($allspec, $spec146)+
 		searchavailspec($allspec, $spec24)+
 		searchavailspec($allspec, $spec17700024))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (общестроительные работы)</b></font>";
@@ -4582,7 +4582,7 @@ case $type5901:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -4593,7 +4593,7 @@ case $type5901:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -4606,7 +4606,7 @@ case $type5901:
 		searchavailspec($allspec, $spec17700026)+
 		searchavailspec($allspec, $spec95)+
 		searchavailspec($allspec, $spec700095))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -4616,7 +4616,7 @@ case $type5901:
 		case $type212:
 		if((searchavailspec($allspec, $spec700057)+
 		searchavailspec($allspec, $spec57))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области газоснабжения)</b></font>";
@@ -4627,7 +4627,7 @@ case $type5901:
 		if((searchavailspec($allspec, $spec700030)+
 		searchavailspec($allspec, $spec30)+
 		searchavailspec($allspec, $spec17700030))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области электроснабжения и автоматизации)</b></font>";
@@ -4638,7 +4638,7 @@ case $type5901:
 		if((searchavailspec($allspec, $spec700097)+
 		searchavailspec($allspec, $spec97)+
 		searchavailspec($allspec, $spec17700097))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области связи, сигнализации)</b></font>";
@@ -4649,7 +4649,7 @@ case $type5901:
 		if((searchavailspec($allspec, $spec700033)+
 		searchavailspec($allspec, $spec33)+
 		searchavailspec($allspec, $spec17700033))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство автомобильных дорог и аэродромов, строительство мостов, транспортных эстакад и путепроводов)</b></font>";
@@ -4660,7 +4660,7 @@ case $type5901:
 		if((searchavailspec($allspec, $spec700084)+
 		searchavailspec($allspec, $spec84)+
 		searchavailspec($allspec, $spec17700084))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство железных дорог)</b></font>";
@@ -4671,7 +4671,7 @@ case $type5901:
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
 		searchavailspec($allspec, $spec17700085))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство сооружений транспортных тоннелей, метрополитенов)</b></font>";
@@ -4681,7 +4681,7 @@ case $type5901:
 		case $type218:
 		if((searchavailspec($allspec, $spec700034)+
 		searchavailspec($allspec, $spec34))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (гидротехническое и мелиоративное строительство)</b></font>";
@@ -4693,7 +4693,7 @@ case $type5901:
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
 		searchavailspec($allspec, $spec113))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (благоустройство территорий)</b></font>";
@@ -4704,7 +4704,7 @@ case $type5901:
 		if((searchavailspec($allspec, $spec700064)+
 		searchavailspec($allspec, $spec3)+
 		searchavailspec($allspec, $spec64))>=3 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов <b>ГАП</b> меньше 3</font>";
@@ -4846,7 +4846,7 @@ case $type5901:
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по сметной работе</b></font>";
 				}			
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 		
@@ -4856,7 +4856,7 @@ case $type5901:
 		case $type229:
 				if((searchavailspec($allspec, $spec140)+searchavailspec($allspec, $spec142)+
 				searchavailspec($allspec, $spec700140)+searchavailspec($allspec, $spec700142))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>главного или ведущего геодезиста</b></font>";
@@ -4866,7 +4866,7 @@ case $type5901:
 		case $type230:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -4901,7 +4901,7 @@ case $type5901:
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -4919,7 +4919,7 @@ case $type5901:
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -4939,7 +4939,7 @@ case $type5901:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -4959,7 +4959,7 @@ case $type5901:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -4979,7 +4979,7 @@ case $type5901:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -4996,7 +4996,7 @@ case $type5901:
 				+searchavailspec($allspec, $spec231)+searchavailspec($allspec, $spec237)
 				+searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223)
 				+searchavailspec($allspec, $spec11))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5031,7 +5031,7 @@ case $type5901:
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243)+
 				searchavailspec($allspec, $spec245)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5050,7 +5050,7 @@ case $type5901:
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5070,7 +5070,7 @@ case $type5901:
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec198)+searchavailspec($allspec, $spec196))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5082,7 +5082,7 @@ case $type5901:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec267)+searchavailspec($allspec, $spec271))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5092,7 +5092,7 @@ case $type5901:
 		case $type241:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5102,7 +5102,7 @@ case $type5901:
 		case $type242:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5112,7 +5112,7 @@ case $type5901:
 		case $type243:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5134,7 +5134,7 @@ case $type5901:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5167,7 +5167,7 @@ case $type5901:
 				searchavailspec($allspec, $spec233)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5180,7 +5180,7 @@ case $type5901:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec210)+searchavailspec($allspec, $spec238)+
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5190,7 +5190,7 @@ case $type5901:
 		case $type247:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5203,7 +5203,7 @@ case $type5901:
 				searchavailspec($allspec, $spec17700211)+searchavailspec($allspec, $spec17700239)+
 				searchavailspec($allspec, $spec211)+searchavailspec($allspec, $spec239)+				
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5216,7 +5216,7 @@ case $type5901:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5228,7 +5228,7 @@ case $type5901:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5240,7 +5240,7 @@ case $type5901:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5256,7 +5256,7 @@ case $type5901:
 				searchavailspec($allspec, $spec240)+searchavailspec($allspec, $spec203)+
 				searchavailspec($allspec, $spec205)+searchavailspec($allspec, $spec231)+
 				searchavailspec($allspec, $spec235)+searchavailspec($allspec, $spec212))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
@@ -5271,7 +5271,7 @@ case $type5901:
 				searchavailspec($allspec, $spec212)+searchavailspec($allspec, $spec240)+
 				searchavailspec($allspec, $spec204)+searchavailspec($allspec, $spec231)+
 				searchavailspec($allspec, $spec232))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5286,7 +5286,7 @@ case $type5901:
 				searchavailspec($allspec, $spec208)+searchavailspec($allspec, $spec17700234)+
 				searchavailspec($allspec, $spec212)+searchavailspec($allspec, $spec240)+
 				searchavailspec($allspec, $spec236)+searchavailspec($allspec, $spec234))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5300,7 +5300,7 @@ case $type5901:
 				searchavailspec($allspec, $spec240)+searchavailspec($allspec, $spec235)+
 				searchavailspec($allspec, $spec17700234)+searchavailspec($allspec, $spec206)+
 				searchavailspec($allspec, $spec207)+searchavailspec($allspec, $spec234))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5314,7 +5314,7 @@ case $type5901:
 				searchavailspec($allspec, $spec17700243)+searchavailspec($allspec, $spec17700245)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec245)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec216))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5328,7 +5328,7 @@ case $type5901:
 				searchavailspec($allspec, $spec17700217)+searchavailspec($allspec, $spec17700215)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec217)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec246))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5341,7 +5341,7 @@ case $type5901:
 		
 		case $type259:
 				if((searchavailspec($allspec, $spec13)+searchavailspec($allspec, $spec193)+searchavailspec($allspec, $spec221))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5352,7 +5352,7 @@ case $type5901:
 		case $type260:
 				if((searchavailspec($allspec, $spec0)+searchavailspec($allspec, $spec16)+
 				searchavailspec($allspec, $spec218)+searchavailspec($allspec, $spec244))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5366,7 +5366,7 @@ case $type5901:
 				searchavailspec($allspec, $spec206)+searchavailspec($allspec, $spec207)+
 				searchavailspec($allspec, $spec17700234)+searchavailspec($allspec, $spec235)+
 				searchavailspec($allspec, $spec222)+searchavailspec($allspec, $spec234))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5378,7 +5378,7 @@ case $type5901:
 				if((searchavailspec($allspec, $spec19)+searchavailspec($allspec, $spec41)+
 				searchavailspec($allspec, $spec194)+searchavailspec($allspec, $spec198)+
 				searchavailspec($allspec, $spec226))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5390,7 +5390,7 @@ case $type5901:
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5401,7 +5401,7 @@ case $type5901:
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5412,7 +5412,7 @@ case $type5901:
 				if((searchavailspec($allspec, $spec710112)+searchavailspec($allspec, $spec112)+
 				searchavailspec($allspec, $spec20112)+searchavailspec($allspec, $spec192)+
 				searchavailspec($allspec, $spec220))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5423,7 +5423,7 @@ case $type5901:
 		case $type266:
 				if((searchavailspec($allspec, $spec82)+searchavailspec($allspec, $spec196)+
 				searchavailspec($allspec, $spec224))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5435,7 +5435,7 @@ case $type5901:
 				if((searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec83)+
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5454,7 +5454,7 @@ case $type5901:
 		case $type270:
 						if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)
 					+searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5468,7 +5468,7 @@ case $type5901:
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -5483,7 +5483,7 @@ case $type272:
 					+count(searchavailspec($allspec, $spec800135))+
 					count(searchavailspec($allspec, $spec93))+
 				count(searchavailspec($allspec, $spec17700135)))>=4){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -5493,7 +5493,7 @@ case $type272:
 		
 		case $type273:
 				if(count(searchavailspec($allspec, $spec250))>=4){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно специалистов, осуществляющих <b>обследование автомобильных дорог и мостовых сооружений</b></font>";
@@ -5506,7 +5506,7 @@ case $type272:
 					+count(searchavailspec($allspec, $spec255))+count(searchavailspec($allspec, $spec256))+
 				count(searchavailspec($allspec, $spec257))+count(searchavailspec($allspec, $spec258))
 				+count(searchavailspec($allspec, $spec259)))>=4){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -5531,7 +5531,7 @@ case $type272:
 		
 		case $type5595:
 		if((count(searchavailspec($allspec, $spec700166))+count(searchavailspec($allspec, $spec166))+count(searchavailspec($allspec, $spec173)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геодезические изыскания</b> меньше 5</font>";
@@ -5540,7 +5540,7 @@ case $type272:
 		
 		case $type5616:
 			if((count(searchavailspec($allspec, $spec700167))+count(searchavailspec($allspec, $spec167))+count(searchavailspec($allspec, $spec174)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геологические изыскания</b> меньше 5</font>";
@@ -5548,7 +5548,7 @@ case $type272:
 		break;
 		case $type5625:
 			if((count(searchavailspec($allspec, $spec700168))+count(searchavailspec($allspec, $spec168)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-гидрометеорологические изыскания</b> меньше 5</font>";
@@ -5557,7 +5557,7 @@ case $type272:
 	
 		case $type5630:
 			if((count(searchavailspec($allspec, $spec700169))+count(searchavailspec($allspec, $spec169)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-экологические изыскания</b> меньше 5</font>";
@@ -5565,7 +5565,7 @@ case $type272:
 		break;
 		case $type5647:
 			if((count(searchavailspec($allspec, $spec700170))+count(searchavailspec($allspec, $spec170)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геотехнические изыскания</b> меньше 5</font>";
@@ -5586,7 +5586,7 @@ case $type272:
 	   break;
 		case $type5654:
 			if((count(searchavailspec($allspec, $spec171))+count(searchavailspec($allspec, $spec171)))>=5){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>обследование состояния грунтов оснований зданий и сооружений</b> меньше 5</font>";
@@ -5595,7 +5595,7 @@ case $type272:
 	
 		case $type5655:
 			if((searchavailspec($allspec, $spec700064)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3))>=1 or (searchavailspec($allspec, $spec4)+searchavailspec($allspec, $spec148)+searchavailspec($allspec, $spec17700129)+searchavailspec($allspec, $spec129)+searchavailspec($allspec, $spec275))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного специалиста <b>ГАП</b> или <b>ГИП</b></font>";
@@ -5656,12 +5656,12 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста по <b>инженерно-техническим мероприятиям гражданской обороны</b></font>";
 				}
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;		
 		case $type5658:
 			if((searchavailspec($allspec, $spec700163)+searchavailspec($allspec, $spec163))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (генеральный план)</b></font>";
@@ -5670,7 +5670,7 @@ case $type272:
 		
 		case $type5659:
 			if((searchavailspec($allspec, $spec252)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3)+searchavailspec($allspec, $spec700064))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (архитектурные решения)</b> либо <b>ГАПа</b></font>";
@@ -5680,7 +5680,7 @@ case $type272:
 		
 		case $type5660:
 			if(searchavailspec($allspec, $spec139)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (сметная документация)</b></font>";
@@ -5690,7 +5690,7 @@ case $type272:
 		
 		case $type5661:
 		if((searchavailspec($allspec, $spec66)+searchavailspec($allspec, $spec17700066)+searchavailspec($allspec, $spec700066))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (конструктивные решения)</b></font>";
@@ -5702,7 +5702,7 @@ case $type272:
 		
 		case $type5664:
 			if((searchavailspec($allspec, $spec17700071)+searchavailspec($allspec, $spec700071)+searchavailspec($allspec, $spec71))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (холодоснабжение))</b></font>";
@@ -5711,7 +5711,7 @@ case $type272:
 				
 		case type5665:
 			if((searchavailspec($allspec, $spec17700067)+searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -5720,7 +5720,7 @@ case $type272:
 		
 		case $type5666:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -5729,7 +5729,7 @@ case $type272:
 				
 		case $type5667:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -5738,7 +5738,7 @@ case $type272:
 		
 		case $type5663:
 			if((searchavailspec($allspec, $spec17700068)+searchavailspec($allspec, $spec700068)+searchavailspec($allspec, $spec68))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (отопление, вентиляция и кондиционирование воздуха))</b></font>";
@@ -5747,7 +5747,7 @@ case $type272:
 				
 		case $type5669:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -5759,7 +5759,7 @@ case $type272:
 		
 		case $type5671:
 			if((searchavailspec($allspec, $spec17700070)+searchavailspec($allspec, $spec700070)+searchavailspec($allspec, $spec70))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (тепловые сети))</b></font>";
@@ -5769,7 +5769,7 @@ case $type272:
 		
 		case $type5672:
 			if((searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -5778,7 +5778,7 @@ case $type272:
 		
 		case $type5673:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -5787,7 +5787,7 @@ case $type272:
 		
 		case $type5674:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -5796,7 +5796,7 @@ case $type272:
 
 		case $type5675:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -5808,7 +5808,7 @@ case $type272:
 		
 		case $type5678:
 			if((searchavailspec($allspec, $spec700164)+searchavailspec($allspec, $spec164))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (организация строительства)</b></font>";
@@ -5817,7 +5817,7 @@ case $type272:
 		
 		case $type5679:
 			if(searchavailspec($allspec, $spec248)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (охрана окружающей среды)</b></font>";
@@ -5883,7 +5883,7 @@ case $type272:
 				}
 					
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 		
@@ -5940,7 +5940,7 @@ case $type272:
 				}
 					
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 		
@@ -5951,7 +5951,7 @@ case $type272:
 		searchavailspec($allspec, $spec146)+
 		searchavailspec($allspec, $spec24)+
 		searchavailspec($allspec, $spec17700024))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (общестроительные работы)</b></font>";
@@ -5962,7 +5962,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -5973,7 +5973,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -5983,7 +5983,7 @@ case $type272:
 		case $type5686:
 		if(
 		searchavailspec($allspec, $spec277)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (устройство систем холодоснабжения)</b></font>";
@@ -5996,7 +5996,7 @@ case $type272:
 		searchavailspec($allspec, $spec17700026)+
 		searchavailspec($allspec, $spec95)+
 		searchavailspec($allspec, $spec700095))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -6006,7 +6006,7 @@ case $type272:
 		case $type5688:
 		if((searchavailspec($allspec, $spec700057)+
 		searchavailspec($allspec, $spec57))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области газоснабжения)</b></font>";
@@ -6017,7 +6017,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700030)+
 		searchavailspec($allspec, $spec30)+
 		searchavailspec($allspec, $spec17700030))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области электроснабжения и автоматизации)</b></font>";
@@ -6029,7 +6029,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700097)+
 		searchavailspec($allspec, $spec97)+
 		searchavailspec($allspec, $spec17700097))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области связи, сигнализации)</b></font>";
@@ -6041,7 +6041,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700033)+
 		searchavailspec($allspec, $spec33)+
 		searchavailspec($allspec, $spec17700033))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство автомобильных дорог и аэродромов, строительство мостов, транспортных эстакад и путепроводов)</b></font>";
@@ -6052,7 +6052,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700084)+
 		searchavailspec($allspec, $spec84)+
 		searchavailspec($allspec, $spec17700084))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство железных дорог)</b></font>";
@@ -6064,7 +6064,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
 		searchavailspec($allspec, $spec17700085))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство сооружений транспортных тоннелей, метрополитенов)</b></font>";
@@ -6074,7 +6074,7 @@ case $type272:
 		case $type5694:
 		if((searchavailspec($allspec, $spec700034)+
 		searchavailspec($allspec, $spec34))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (гидротехническое и мелиоративное строительство)</b></font>";
@@ -6086,7 +6086,7 @@ case $type272:
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
 		searchavailspec($allspec, $spec113))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (благоустройство территорий)</b></font>";
@@ -6096,7 +6096,7 @@ case $type272:
 		
 		case $type5696:
 		if(searchavailspec($allspec, $spec276)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (монтаж технологических трубопроводов и оборудования)</b></font>";
@@ -6107,7 +6107,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700061)+
 		searchavailspec($allspec, $spec17700061)+
 		searchavailspec($allspec, $spec61))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (устройство магистральных трубопроводов для транспортирования нефти, газа, нефтепродуктов)</b></font>";
@@ -6118,7 +6118,7 @@ case $type272:
 		if((count(searchavailspec($allspec, $spec700064))+
 		count(searchavailspec($allspec, $spec3))+
 		count(searchavailspec($allspec, $spec64)))>=3 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов <b>ГАП</b> меньше 3</font>";
@@ -6267,7 +6267,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по сметной работе</b></font>";
 				}			
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;		
 		
@@ -6388,7 +6388,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по сметной работе</b></font>";
 				}			
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 		
@@ -6399,7 +6399,7 @@ case $type272:
 		case $type5709:
 				if((searchavailspec($allspec, $spec140)+searchavailspec($allspec, $spec142)+
 				searchavailspec($allspec, $spec700140)+searchavailspec($allspec, $spec700142))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>главного или ведущего геодезиста</b></font>";
@@ -6410,7 +6410,7 @@ case $type272:
 		case $type5710:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6445,7 +6445,7 @@ case $type272:
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6463,7 +6463,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6483,7 +6483,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6503,7 +6503,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6522,7 +6522,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6531,7 +6531,7 @@ case $type272:
 		
 		case $type5716:
 				if((searchavailspec($allspec, $spec270)+searchavailspec($allspec, $spec274))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6565,7 +6565,7 @@ case $type272:
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243)+
 				searchavailspec($allspec, $spec245)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6584,7 +6584,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6604,7 +6604,7 @@ case $type272:
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec198)+searchavailspec($allspec, $spec196))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6615,7 +6615,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec267)+searchavailspec($allspec, $spec271))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6625,7 +6625,7 @@ case $type272:
 		case $type5721:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6635,7 +6635,7 @@ case $type272:
 		case $type5722:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6645,7 +6645,7 @@ case $type272:
 		case $type5723:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6666,7 +6666,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6698,7 +6698,7 @@ case $type272:
 				searchavailspec($allspec, $spec233)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6711,7 +6711,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec210)+searchavailspec($allspec, $spec238)+
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6721,7 +6721,7 @@ case $type272:
 		case $type5727:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6735,7 +6735,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700211)+searchavailspec($allspec, $spec17700239)+
 				searchavailspec($allspec, $spec211)+searchavailspec($allspec, $spec239)+				
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6747,7 +6747,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6759,7 +6759,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6771,7 +6771,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6795,7 +6795,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;
 
@@ -6814,7 +6814,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;
 		
@@ -6831,7 +6831,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;			
 
@@ -6849,7 +6849,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;		
 		
@@ -6860,7 +6860,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700243)+searchavailspec($allspec, $spec17700245)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec245)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec216))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6873,7 +6873,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700217)+searchavailspec($allspec, $spec17700215)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec217)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec246))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6883,7 +6883,7 @@ case $type272:
 		case $type5738:
 				if((searchavailspec($allspec, $spec13)+searchavailspec($allspec, $spec193)+
 				searchavailspec($allspec, $spec221))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6893,7 +6893,7 @@ case $type272:
 		case $type5739:
 				if((searchavailspec($allspec, $spec0)+searchavailspec($allspec, $spec16)+
 				searchavailspec($allspec, $spec218)+searchavailspec($allspec, $spec244))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6905,7 +6905,7 @@ case $type272:
 				searchavailspec($allspec, $spec206)+searchavailspec($allspec, $spec207)+
 				searchavailspec($allspec, $spec17700234)+searchavailspec($allspec, $spec235)+
 				searchavailspec($allspec, $spec222)+searchavailspec($allspec, $spec234))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6916,7 +6916,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec19)+searchavailspec($allspec, $spec41)+
 				searchavailspec($allspec, $spec194)+searchavailspec($allspec, $spec198)+
 				searchavailspec($allspec, $spec226))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6927,7 +6927,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6938,7 +6938,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6949,7 +6949,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec710112)+searchavailspec($allspec, $spec112)+
 				searchavailspec($allspec, $spec20112)+searchavailspec($allspec, $spec192)+
 				searchavailspec($allspec, $spec220))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6959,7 +6959,7 @@ case $type272:
 		case $type5745:
 				if((searchavailspec($allspec, $spec82)+searchavailspec($allspec, $spec196)+
 				searchavailspec($allspec, $spec224))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6971,7 +6971,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec83)+
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6980,7 +6980,7 @@ case $type272:
 
 		case $type5747:	
 				if((searchavailspec($allspec, $spec269)+searchavailspec($allspec, $spec273))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -6990,7 +6990,7 @@ case $type272:
 		case $type5748:	
 				if((searchavailspec($allspec, $spec17)+searchavailspec($allspec, $spec214)
 					+searchavailspec($allspec, $spec242))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -7000,7 +7000,7 @@ case $type272:
 		case $type5749:
 						if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)
 					+searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -7013,7 +7013,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -7022,7 +7022,7 @@ case $type272:
 
 		case $type5751:
 				if((searchavailspec($allspec, $spec268)+searchavailspec($allspec, $spec272))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -7036,7 +7036,7 @@ case $type272:
 				if((count(searchavailspec($allspec, $spec700093))+count(searchavailspec($allspec, $spec700135))
 					+count(searchavailspec($allspec, $spec800135))+count(searchavailspec($allspec, $spec93))+
 				count(searchavailspec($allspec, $spec17700135)))>=4){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -7046,7 +7046,7 @@ case $type272:
 		
 		case $type5903:
 				if(count(searchavailspec($allspec, $spec250))>=4){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно специалистов, осуществляющих <b>обследование автомобильных дорог и мостовых сооружений</b></font>";
@@ -7059,7 +7059,7 @@ case $type272:
 					+count(searchavailspec($allspec, $spec255))+count(searchavailspec($allspec, $spec256))+
 				count(searchavailspec($allspec, $spec257))+count(searchavailspec($allspec, $spec258))
 				+count(searchavailspec($allspec, $spec259)))>=4){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -7095,7 +7095,7 @@ case $type272:
 		
 		case $type164:
 		if((count(searchavailspec($allspec, $spec700166))+count(searchavailspec($allspec, $spec166))+count(searchavailspec($allspec, $spec173)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геодезические изыскания</b> меньше 3</font>";
@@ -7104,7 +7104,7 @@ case $type272:
 		
 		case $type165:
 			if((count(searchavailspec($allspec, $spec700167))+count(searchavailspec($allspec, $spec167))+count(searchavailspec($allspec, $spec174)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геологические изыскания</b> меньше 3</font>";
@@ -7113,7 +7113,7 @@ case $type272:
 		
 		case $type166:
 			if((count(searchavailspec($allspec, $spec700168))+count(searchavailspec($allspec, $spec168)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-гидрометеорологические изыскания</b> меньше 3</font>";
@@ -7122,7 +7122,7 @@ case $type272:
 		
 		case $type167:
 			if((count(searchavailspec($allspec, $spec700169))+count(searchavailspec($allspec, $spec169)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-экологические изыскания</b> меньше 3</font>";
@@ -7131,7 +7131,7 @@ case $type272:
 		
 		case $type168:
 			if((count(searchavailspec($allspec, $spec700170))+count(searchavailspec($allspec, $spec170)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геотехнические изыскания</b> меньше 3</font>";
@@ -7140,7 +7140,7 @@ case $type272:
 		
 		case $type169:
 			if((count(searchavailspec($allspec, $spec171))+count(searchavailspec($allspec, $spec171)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>обследование состояния грунтов оснований зданий и сооружений</b> меньше 3</font>";
@@ -7150,7 +7150,7 @@ case $type272:
 	
 		case $type170:
 			if((searchavailspec($allspec, $spec700064)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3))>=1 or (searchavailspec($allspec, $spec4)+searchavailspec($allspec, $spec148)+searchavailspec($allspec, $spec17700129)+searchavailspec($allspec, $spec129)+searchavailspec($allspec, $spec275))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного специалиста <b>ГАП</b> или <b>ГИП</b></font>";
@@ -7200,7 +7200,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Количество специалистов <b>ГАП</b> или <b>ГИП</b> меньше 2</font>";
 				}
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;
 					
@@ -7209,7 +7209,7 @@ case $type272:
 		
 		case $type197:
 			if((searchavailspec($allspec, $spec700163)+searchavailspec($allspec, $spec163))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (генеральный план)</b></font>";
@@ -7218,7 +7218,7 @@ case $type272:
 		
 		case $type198:
 			if((searchavailspec($allspec, $spec252)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3)+searchavailspec($allspec, $spec700064))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (архитектурные решения)</b> либо <b>ГАПа</b></font>";
@@ -7227,7 +7227,7 @@ case $type272:
 		
 		case $type199:
 			if(searchavailspec($allspec, $spec139)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (сметная документация)</b></font>";
@@ -7237,7 +7237,7 @@ case $type272:
 		
 		case $type200:			
 		if((searchavailspec($allspec, $spec66)+searchavailspec($allspec, $spec17700066)+searchavailspec($allspec, $spec700066))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (конструктивные решения)</b></font>";
@@ -7249,7 +7249,7 @@ case $type272:
 		
 		case $type5435:
 			if((searchavailspec($allspec, $spec17700071)+searchavailspec($allspec, $spec700071)+searchavailspec($allspec, $spec71))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (холодоснабжение))</b></font>";
@@ -7259,7 +7259,7 @@ case $type272:
 				
 		case $type5436:
 			if((searchavailspec($allspec, $spec17700067)+searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -7268,7 +7268,7 @@ case $type272:
 		
 		case $type5438:
 			if((searchavailspec($allspec, $spec17700067)+searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -7278,7 +7278,7 @@ case $type272:
 		
 		case $type5441:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -7287,7 +7287,7 @@ case $type272:
 		
 		case $type5442:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -7296,7 +7296,7 @@ case $type272:
 		
 		case $type5443:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -7305,7 +7305,7 @@ case $type272:
 		
 		case $type5444:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -7313,7 +7313,7 @@ case $type272:
 		break;
 		case $type5453:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -7321,7 +7321,7 @@ case $type272:
 		break;
 		case $type5454:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -7331,7 +7331,7 @@ case $type272:
 		
 		case $type5439:
 			if((searchavailspec($allspec, $spec17700068)+searchavailspec($allspec, $spec700068)+searchavailspec($allspec, $spec68))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (отопление, вентиляция и кондиционирование воздуха))</b></font>";
@@ -7340,7 +7340,7 @@ case $type272:
 		
 		case $type5440:
 			if((searchavailspec($allspec, $spec17700068)+searchavailspec($allspec, $spec700068)+searchavailspec($allspec, $spec68))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (отопление, вентиляция и кондиционирование воздуха))</b></font>";
@@ -7349,7 +7349,7 @@ case $type272:
 		
 		case $type5437:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -7362,7 +7362,7 @@ case $type272:
 		
 		case $type5446:
 			if((searchavailspec($allspec, $spec17700070)+searchavailspec($allspec, $spec700070)+searchavailspec($allspec, $spec70))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (тепловые сети))</b></font>";
@@ -7371,7 +7371,7 @@ case $type272:
 		
 		case $type5447:
 			if((searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -7380,7 +7380,7 @@ case $type272:
 		
 		case $type5449:
 			if((searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -7389,7 +7389,7 @@ case $type272:
 		
 		case $type5450:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -7398,7 +7398,7 @@ case $type272:
 		
 		case $type5451:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -7406,7 +7406,7 @@ case $type272:
 		break;
 		case $type5455:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -7415,7 +7415,7 @@ case $type272:
 		
 		case $type5456:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -7424,7 +7424,7 @@ case $type272:
 		
 		case $type5448:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -7439,7 +7439,7 @@ case $type272:
 		
 		case $type5459:
 				if(searchavailspec($allspec, $spec249)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерно-технические мероприятия гражданской обороны. Мероприятия по предупреждению чрезвычайных ситуаций)</b></font>";
@@ -7447,7 +7447,7 @@ case $type272:
 		break;
 		case $type5460:
 				if(searchavailspec($allspec, $spec249)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерно-технические мероприятия гражданской обороны. Мероприятия по предупреждению чрезвычайных ситуаций)</b></font>";
@@ -7455,7 +7455,7 @@ case $type272:
 		break;
 		case $type5461:
 				if(searchavailspec($allspec, $spec249)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерно-технические мероприятия гражданской обороны. Мероприятия по предупреждению чрезвычайных ситуаций)</b></font>";
@@ -7464,7 +7464,7 @@ case $type272:
 		
 		case $type5462:
 			if((searchavailspec($allspec, $spec700164)+searchavailspec($allspec, $spec164))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (организация строительства)</b></font>";
@@ -7473,7 +7473,7 @@ case $type272:
 		
 		case $type5458:
 			if(searchavailspec($allspec, $spec248)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (охрана окружающей среды)</b></font>";
@@ -7539,7 +7539,7 @@ case $type272:
 				}
 					
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 		
@@ -7550,7 +7550,7 @@ case $type272:
 		searchavailspec($allspec, $spec146)+
 		searchavailspec($allspec, $spec24)+
 		searchavailspec($allspec, $spec17700024))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (общестроительные работы)</b></font>";
@@ -7561,7 +7561,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -7572,7 +7572,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -7585,7 +7585,7 @@ case $type272:
 		searchavailspec($allspec, $spec17700026)+
 		searchavailspec($allspec, $spec95)+
 		searchavailspec($allspec, $spec700095))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -7595,7 +7595,7 @@ case $type272:
 		case $type212:
 		if((searchavailspec($allspec, $spec700057)+
 		searchavailspec($allspec, $spec57))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области газоснабжения)</b></font>";
@@ -7606,7 +7606,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700030)+
 		searchavailspec($allspec, $spec30)+
 		searchavailspec($allspec, $spec17700030))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области электроснабжения и автоматизации)</b></font>";
@@ -7617,7 +7617,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700097)+
 		searchavailspec($allspec, $spec97)+
 		searchavailspec($allspec, $spec17700097))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области связи, сигнализации)</b></font>";
@@ -7628,7 +7628,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700033)+
 		searchavailspec($allspec, $spec33)+
 		searchavailspec($allspec, $spec17700033))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство автомобильных дорог и аэродромов, строительство мостов, транспортных эстакад и путепроводов)</b></font>";
@@ -7639,7 +7639,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700084)+
 		searchavailspec($allspec, $spec84)+
 		searchavailspec($allspec, $spec17700084))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство железных дорог)</b></font>";
@@ -7650,7 +7650,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
 		searchavailspec($allspec, $spec17700085))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство сооружений транспортных тоннелей, метрополитенов)</b></font>";
@@ -7660,7 +7660,7 @@ case $type272:
 		case $type218:
 		if((searchavailspec($allspec, $spec700034)+
 		searchavailspec($allspec, $spec34))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (гидротехническое и мелиоративное строительство)</b></font>";
@@ -7672,7 +7672,7 @@ case $type272:
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
 		searchavailspec($allspec, $spec113))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (благоустройство территорий)</b></font>";
@@ -7683,7 +7683,7 @@ case $type272:
 		if((count(searchavailspec($allspec, $spec700064))+
 		count(searchavailspec($allspec, $spec3))+
 		count(searchavailspec($allspec, $spec64)))>=2 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов <b>ГАП</b> меньше 2</font>";
@@ -7768,7 +7768,7 @@ case $type272:
 				}					
 			
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 		
@@ -7779,7 +7779,7 @@ case $type272:
 		case $type229:
 				if((searchavailspec($allspec, $spec140)+searchavailspec($allspec, $spec142)+
 				searchavailspec($allspec, $spec700140)+searchavailspec($allspec, $spec700142))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>главного или ведущего геодезиста</b></font>";
@@ -7789,7 +7789,7 @@ case $type272:
 		case $type230:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -7824,7 +7824,7 @@ case $type272:
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -7842,7 +7842,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -7862,7 +7862,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -7882,7 +7882,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -7902,7 +7902,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -7919,7 +7919,7 @@ case $type272:
 				+searchavailspec($allspec, $spec231)+searchavailspec($allspec, $spec237)
 				+searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223)
 				+searchavailspec($allspec, $spec11))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -7953,7 +7953,7 @@ case $type272:
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243)+
 				searchavailspec($allspec, $spec245)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -7972,7 +7972,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -7992,7 +7992,7 @@ case $type272:
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec198)+searchavailspec($allspec, $spec196))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8003,7 +8003,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec267)+searchavailspec($allspec, $spec271))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8014,7 +8014,7 @@ case $type272:
 		case $type241:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8024,7 +8024,7 @@ case $type272:
 		case $type242:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8035,7 +8035,7 @@ case $type272:
 		case $type243:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8057,7 +8057,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8090,7 +8090,7 @@ case $type272:
 				searchavailspec($allspec, $spec233)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8102,7 +8102,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec210)+searchavailspec($allspec, $spec238)+
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8112,7 +8112,7 @@ case $type272:
 		case $type247:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8125,7 +8125,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700211)+searchavailspec($allspec, $spec17700239)+
 				searchavailspec($allspec, $spec211)+searchavailspec($allspec, $spec239)+				
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8137,7 +8137,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8149,7 +8149,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8161,7 +8161,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8176,7 +8176,7 @@ case $type272:
 				searchavailspec($allspec, $spec240)+searchavailspec($allspec, $spec203)+
 				searchavailspec($allspec, $spec205)+searchavailspec($allspec, $spec231)+
 				searchavailspec($allspec, $spec235)+searchavailspec($allspec, $spec212))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
@@ -8191,7 +8191,7 @@ case $type272:
 				searchavailspec($allspec, $spec212)+searchavailspec($allspec, $spec240)+
 				searchavailspec($allspec, $spec204)+searchavailspec($allspec, $spec231)+
 				searchavailspec($allspec, $spec232))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8205,7 +8205,7 @@ case $type272:
 				searchavailspec($allspec, $spec208)+searchavailspec($allspec, $spec17700234)+
 				searchavailspec($allspec, $spec212)+searchavailspec($allspec, $spec240)+
 				searchavailspec($allspec, $spec236)+searchavailspec($allspec, $spec234))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8218,7 +8218,7 @@ case $type272:
 				searchavailspec($allspec, $spec240)+searchavailspec($allspec, $spec235)+
 				searchavailspec($allspec, $spec17700234)+searchavailspec($allspec, $spec206)+
 				searchavailspec($allspec, $spec207)+searchavailspec($allspec, $spec234))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8231,7 +8231,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700243)+searchavailspec($allspec, $spec17700245)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec245)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec216))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8244,7 +8244,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700217)+searchavailspec($allspec, $spec17700215)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec217)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec246))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8256,7 +8256,7 @@ case $type272:
 		
 		case $type259:
 				if((searchavailspec($allspec, $spec13)+searchavailspec($allspec, $spec193)+searchavailspec($allspec, $spec221))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8266,7 +8266,7 @@ case $type272:
 		case $type260:
 				if((searchavailspec($allspec, $spec0)+searchavailspec($allspec, $spec16)+
 				searchavailspec($allspec, $spec218)+searchavailspec($allspec, $spec244))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8278,7 +8278,7 @@ case $type272:
 				searchavailspec($allspec, $spec206)+searchavailspec($allspec, $spec207)+
 				searchavailspec($allspec, $spec17700234)+searchavailspec($allspec, $spec235)+
 				searchavailspec($allspec, $spec222)+searchavailspec($allspec, $spec234))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8289,7 +8289,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec19)+searchavailspec($allspec, $spec41)+
 				searchavailspec($allspec, $spec194)+searchavailspec($allspec, $spec198)+
 				searchavailspec($allspec, $spec226))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8300,7 +8300,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8311,7 +8311,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8322,7 +8322,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec710112)+searchavailspec($allspec, $spec112)+
 				searchavailspec($allspec, $spec20112)+searchavailspec($allspec, $spec192)+
 				searchavailspec($allspec, $spec220))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8332,7 +8332,7 @@ case $type272:
 		case $type266:
 				if((searchavailspec($allspec, $spec82)+searchavailspec($allspec, $spec196)+
 				searchavailspec($allspec, $spec224))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8343,7 +8343,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec83)+
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8361,7 +8361,7 @@ case $type272:
 		case $type270:
 						if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)
 					+searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8374,7 +8374,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -8386,7 +8386,7 @@ case $type272:
 				if((count(searchavailspec($allspec, $spec700093))+count(searchavailspec($allspec, $spec700135))
 					+count(searchavailspec($allspec, $spec800135))+count(searchavailspec($allspec, $spec93))+
 				count(searchavailspec($allspec, $spec17700135)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -8396,7 +8396,7 @@ case $type272:
 		
 		case $type273:
 				if(count(searchavailspec($allspec, $spec250))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно специалистов, осуществляющих <b>обследование автомобильных дорог и мостовых сооружений</b></font>";
@@ -8409,7 +8409,7 @@ case $type272:
 					+count(searchavailspec($allspec, $spec255))+count(searchavailspec($allspec, $spec256))+
 				count(searchavailspec($allspec, $spec257))+count(searchavailspec($allspec, $spec258))
 				+count(searchavailspec($allspec, $spec259)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -8436,7 +8436,7 @@ case $type272:
 		
 		case $type5595:
 		if((count(searchavailspec($allspec, $spec700166))+count(searchavailspec($allspec, $spec166))+count(searchavailspec($allspec, $spec173)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геодезические изыскания</b> меньше 3</font>";
@@ -8445,7 +8445,7 @@ case $type272:
 		
 		case $type5616:
 			if((count(searchavailspec($allspec, $spec700167))+count(searchavailspec($allspec, $spec167))+count(searchavailspec($allspec, $spec174)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геологические изыскания</b> меньше 3</font>";
@@ -8454,7 +8454,7 @@ case $type272:
 		
 		case $type5625:
 			if((count(searchavailspec($allspec, $spec700168))+count(searchavailspec($allspec, $spec168)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-гидрометеорологические изыскания</b> меньше 3</font>";
@@ -8463,7 +8463,7 @@ case $type272:
 		
 		case $type5630:
 			if((count(searchavailspec($allspec, $spec700169))+count(searchavailspec($allspec, $spec169)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-экологические изыскания</b> меньше 3</font>";
@@ -8472,7 +8472,7 @@ case $type272:
 		
 		case $type5647:
 			if((count(searchavailspec($allspec, $spec700170))+count(searchavailspec($allspec, $spec170)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геотехнические изыскания</b> меньше 3</font>";
@@ -8494,7 +8494,7 @@ case $type272:
 		
 		case $type5654:
 			if((count(searchavailspec($allspec, $spec171))+count(searchavailspec($allspec, $spec171)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>обследование состояния грунтов оснований зданий и сооружений</b> меньше 3</font>";
@@ -8503,7 +8503,7 @@ case $type272:
 		
 		case $type5655:
 			if((searchavailspec($allspec, $spec700064)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3))>=1 or (searchavailspec($allspec, $spec4)+searchavailspec($allspec, $spec148)+searchavailspec($allspec, $spec17700129)+searchavailspec($allspec, $spec129)+searchavailspec($allspec, $spec275))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного специалиста <b>ГАП</b> или <b>ГИП</b></font>";
@@ -8553,13 +8553,13 @@ case $type272:
 				echo "<font color=\"ff0000\">Количество специалистов <b>ГАП</b> или <b>ГИП</b> меньше 2</font>";
 				}
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;		
 		
 		case $type5658:
 			if((searchavailspec($allspec, $spec700163)+searchavailspec($allspec, $spec163))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (генеральный план)</b></font>";
@@ -8568,7 +8568,7 @@ case $type272:
 			
 		case $type5659:
 			if((searchavailspec($allspec, $spec252)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3)+searchavailspec($allspec, $spec700064))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (архитектурные решения)</b> либо <b>ГАПа</b></font>";
@@ -8577,7 +8577,7 @@ case $type272:
 				
 		case $type5660:
 			if(searchavailspec($allspec, $spec139)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (сметная документация)</b></font>";
@@ -8586,7 +8586,7 @@ case $type272:
 		
 		case $type5661:
 		if((searchavailspec($allspec, $spec66)+searchavailspec($allspec, $spec17700066)+searchavailspec($allspec, $spec700066))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (конструктивные решения)</b></font>";
@@ -8598,7 +8598,7 @@ case $type272:
 		
 		case $type5664:
 			if((searchavailspec($allspec, $spec17700071)+searchavailspec($allspec, $spec700071)+searchavailspec($allspec, $spec71))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (холодоснабжение))</b></font>";
@@ -8607,7 +8607,7 @@ case $type272:
 				
 		case type5665:
 			if((searchavailspec($allspec, $spec17700067)+searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -8616,7 +8616,7 @@ case $type272:
 		
 		case $type5666:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -8625,7 +8625,7 @@ case $type272:
 				
 		case $type5667:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -8634,7 +8634,7 @@ case $type272:
 		
 		case $type5663:
 			if((searchavailspec($allspec, $spec17700068)+searchavailspec($allspec, $spec700068)+searchavailspec($allspec, $spec68))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (отопление, вентиляция и кондиционирование воздуха))</b></font>";
@@ -8643,7 +8643,7 @@ case $type272:
 				
 		case $type5669:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -8655,7 +8655,7 @@ case $type272:
 		
 		case $type5671:
 			if((searchavailspec($allspec, $spec17700070)+searchavailspec($allspec, $spec700070)+searchavailspec($allspec, $spec70))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (тепловые сети))</b></font>";
@@ -8664,7 +8664,7 @@ case $type272:
 			
 		case $type5672:
 			if((searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -8673,7 +8673,7 @@ case $type272:
 		
 		case $type5673:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -8682,7 +8682,7 @@ case $type272:
 		
 		case $type5674:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -8691,7 +8691,7 @@ case $type272:
 		
 		case $type5675:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -8703,7 +8703,7 @@ case $type272:
 		
 		case $type5678:
 			if((searchavailspec($allspec, $spec700164)+searchavailspec($allspec, $spec164))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (организация строительства)</b></font>";
@@ -8712,7 +8712,7 @@ case $type272:
 		
 		case $type5679:
 			if(searchavailspec($allspec, $spec248)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (охрана окружающей среды)</b></font>";
@@ -8778,7 +8778,7 @@ case $type272:
 				}
 					
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 		
@@ -8789,7 +8789,7 @@ case $type272:
 		searchavailspec($allspec, $spec146)+
 		searchavailspec($allspec, $spec24)+
 		searchavailspec($allspec, $spec17700024))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (общестроительные работы)</b></font>";
@@ -8800,7 +8800,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -8811,7 +8811,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -8821,7 +8821,7 @@ case $type272:
 		case $type5686:
 		if(
 		searchavailspec($allspec, $spec277)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (устройство систем холодоснабжения)</b></font>";
@@ -8834,7 +8834,7 @@ case $type272:
 		searchavailspec($allspec, $spec17700026)+
 		searchavailspec($allspec, $spec95)+
 		searchavailspec($allspec, $spec700095))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -8844,7 +8844,7 @@ case $type272:
 		case $type5688:
 		if((searchavailspec($allspec, $spec700057)+
 		searchavailspec($allspec, $spec57))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области газоснабжения)</b></font>";
@@ -8855,7 +8855,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700030)+
 		searchavailspec($allspec, $spec30)+
 		searchavailspec($allspec, $spec17700030))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области электроснабжения и автоматизации)</b></font>";
@@ -8866,7 +8866,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700097)+
 		searchavailspec($allspec, $spec97)+
 		searchavailspec($allspec, $spec17700097))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области связи, сигнализации)</b></font>";
@@ -8877,7 +8877,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700033)+
 		searchavailspec($allspec, $spec33)+
 		searchavailspec($allspec, $spec17700033))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство автомобильных дорог и аэродромов, строительство мостов, транспортных эстакад и путепроводов)</b></font>";
@@ -8888,7 +8888,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700084)+
 		searchavailspec($allspec, $spec84)+
 		searchavailspec($allspec, $spec17700084))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство железных дорог)</b></font>";
@@ -8899,7 +8899,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
 		searchavailspec($allspec, $spec17700085))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство сооружений транспортных тоннелей, метрополитенов)</b></font>";
@@ -8909,7 +8909,7 @@ case $type272:
 		case $type5694:
 		if((searchavailspec($allspec, $spec700034)+
 		searchavailspec($allspec, $spec34))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (гидротехническое и мелиоративное строительство)</b></font>";
@@ -8921,7 +8921,7 @@ case $type272:
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
 		searchavailspec($allspec, $spec113))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (благоустройство территорий)</b></font>";
@@ -8931,7 +8931,7 @@ case $type272:
 		
 		case $type5696:
 		if(searchavailspec($allspec, $spec276)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (монтаж технологических трубопроводов и оборудования)</b></font>";
@@ -8942,7 +8942,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700061)+
 		searchavailspec($allspec, $spec17700061)+
 		searchavailspec($allspec, $spec61))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (устройство магистральных трубопроводов для транспортирования нефти, газа, нефтепродуктов)</b></font>";
@@ -8953,7 +8953,7 @@ case $type272:
 		if((count(searchavailspec($allspec, $spec700064))+
 		count(searchavailspec($allspec, $spec3))+
 		count(searchavailspec($allspec, $spec64)))>=2 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов <b>ГАП</b> меньше 2</font>";
@@ -9037,7 +9037,7 @@ case $type272:
 				}					
 			
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 				
@@ -9047,7 +9047,7 @@ case $type272:
 		case $type5709:
 				if((searchavailspec($allspec, $spec140)+searchavailspec($allspec, $spec142)+
 				searchavailspec($allspec, $spec700140)+searchavailspec($allspec, $spec700142))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>главного или ведущего геодезиста</b></font>";
@@ -9057,7 +9057,7 @@ case $type272:
 		case $type5710:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9092,7 +9092,7 @@ case $type272:
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9110,7 +9110,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9130,7 +9130,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9150,7 +9150,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9169,7 +9169,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9178,7 +9178,7 @@ case $type272:
 		
 		case $type5716:
 				if((searchavailspec($allspec, $spec270)+searchavailspec($allspec, $spec274))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9212,7 +9212,7 @@ case $type272:
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243)+
 				searchavailspec($allspec, $spec245)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9231,7 +9231,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9251,7 +9251,7 @@ case $type272:
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec198)+searchavailspec($allspec, $spec196))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9262,7 +9262,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec267)+searchavailspec($allspec, $spec271))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9272,7 +9272,7 @@ case $type272:
 		case $type5721:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9282,7 +9282,7 @@ case $type272:
 		case $type5722:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9292,7 +9292,7 @@ case $type272:
 		case $type5723:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9313,7 +9313,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9345,7 +9345,7 @@ case $type272:
 				searchavailspec($allspec, $spec233)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9358,7 +9358,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec210)+searchavailspec($allspec, $spec238)+
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9368,7 +9368,7 @@ case $type272:
 		case $type5727:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9381,7 +9381,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700211)+searchavailspec($allspec, $spec17700239)+
 				searchavailspec($allspec, $spec211)+searchavailspec($allspec, $spec239)+				
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9393,7 +9393,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9405,7 +9405,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9417,7 +9417,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9441,7 +9441,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;
 
@@ -9460,7 +9460,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;
 		
@@ -9477,7 +9477,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;			
 
@@ -9495,7 +9495,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;	
 		
@@ -9505,7 +9505,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700243)+searchavailspec($allspec, $spec17700245)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec245)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec216))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9518,7 +9518,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700217)+searchavailspec($allspec, $spec17700215)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec217)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec246))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9528,7 +9528,7 @@ case $type272:
 		case $type5738:
 				if((searchavailspec($allspec, $spec13)+searchavailspec($allspec, $spec193)+
 				searchavailspec($allspec, $spec221))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9539,7 +9539,7 @@ case $type272:
 		case $type5739:
 				if((searchavailspec($allspec, $spec0)+searchavailspec($allspec, $spec16)+
 				searchavailspec($allspec, $spec218)+searchavailspec($allspec, $spec244))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9552,7 +9552,7 @@ case $type272:
 				searchavailspec($allspec, $spec206)+searchavailspec($allspec, $spec207)+
 				searchavailspec($allspec, $spec17700234)+searchavailspec($allspec, $spec235)+
 				searchavailspec($allspec, $spec222)+searchavailspec($allspec, $spec234))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9563,7 +9563,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec19)+searchavailspec($allspec, $spec41)+
 				searchavailspec($allspec, $spec194)+searchavailspec($allspec, $spec198)+
 				searchavailspec($allspec, $spec226))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9574,7 +9574,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9585,7 +9585,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9596,7 +9596,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec710112)+searchavailspec($allspec, $spec112)+
 				searchavailspec($allspec, $spec20112)+searchavailspec($allspec, $spec192)+
 				searchavailspec($allspec, $spec220))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9606,7 +9606,7 @@ case $type272:
 		case $type5745:
 				if((searchavailspec($allspec, $spec82)+searchavailspec($allspec, $spec196)+
 				searchavailspec($allspec, $spec224))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9617,7 +9617,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec83)+
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9626,7 +9626,7 @@ case $type272:
 
 		case $type5747:	
 				if((searchavailspec($allspec, $spec269)+searchavailspec($allspec, $spec273))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9636,7 +9636,7 @@ case $type272:
 		case $type5748:	
 				if((searchavailspec($allspec, $spec17)+searchavailspec($allspec, $spec214)
 					+searchavailspec($allspec, $spec242))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9646,7 +9646,7 @@ case $type272:
 		case $type5749:
 						if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)
 					+searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9659,7 +9659,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9668,7 +9668,7 @@ case $type272:
 
 		case $type5751:
 				if((searchavailspec($allspec, $spec268)+searchavailspec($allspec, $spec272))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -9683,7 +9683,7 @@ case $type272:
 				if((count(searchavailspec($allspec, $spec700093))+count(searchavailspec($allspec, $spec700135))
 					+count(searchavailspec($allspec, $spec800135))+count(searchavailspec($allspec, $spec93))+
 				count(searchavailspec($allspec, $spec17700135)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -9692,7 +9692,7 @@ case $type272:
 	
 		case $type5903:
 				if(count(searchavailspec($allspec, $spec250))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно специалистов, осуществляющих <b>обследование автомобильных дорог и мостовых сооружений</b></font>";
@@ -9705,7 +9705,7 @@ case $type272:
 					+count(searchavailspec($allspec, $spec255))+count(searchavailspec($allspec, $spec256))+
 				count(searchavailspec($allspec, $spec257))+count(searchavailspec($allspec, $spec258))
 				+count(searchavailspec($allspec, $spec259)))>=3){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -9741,7 +9741,7 @@ case $type272:
 		
 		case $type164:
 		if((count(searchavailspec($allspec, $spec700166))+count(searchavailspec($allspec, $spec166))+count(searchavailspec($allspec, $spec173)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геодезические изыскания</b> меньше 2</font>";
@@ -9750,7 +9750,7 @@ case $type272:
 		
 		case $type165:
 			if((count(searchavailspec($allspec, $spec700167))+count(searchavailspec($allspec, $spec167))+count(searchavailspec($allspec, $spec174)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геологические изыскания</b> меньше 2</font>";
@@ -9759,7 +9759,7 @@ case $type272:
 		
 		case $type166:
 			if((count(searchavailspec($allspec, $spec700168))+count(searchavailspec($allspec, $spec168)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-гидрометеорологические изыскания</b> меньше 2</font>";
@@ -9768,7 +9768,7 @@ case $type272:
 		
 		case $type167:
 			if((count(searchavailspec($allspec, $spec700169))+count(searchavailspec($allspec, $spec169)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-экологические изыскания</b> меньше 2</font>";
@@ -9777,7 +9777,7 @@ case $type272:
 		
 		case $type168:
 			if((count(searchavailspec($allspec, $spec700170))+count(searchavailspec($allspec, $spec170)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геотехнические изыскания</b> меньше 2</font>";
@@ -9786,7 +9786,7 @@ case $type272:
 		
 		case $type169:
 			if((count(searchavailspec($allspec, $spec171))+count(searchavailspec($allspec, $spec171)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>обследование состояния грунтов оснований зданий и сооружений</b> меньше 2</font>";
@@ -9795,7 +9795,7 @@ case $type272:
 		
 		case $type170:
 			if((searchavailspec($allspec, $spec700064)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3))>=1 or (searchavailspec($allspec, $spec4)+searchavailspec($allspec, $spec148)+searchavailspec($allspec, $spec17700129)+searchavailspec($allspec, $spec129)+searchavailspec($allspec, $spec275))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного специалиста <b>ГАП</b> или <b>ГИП</b></font>";
@@ -9844,7 +9844,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Количество специалистов <b>ГАП</b> или <b>ГИП</b> меньше 2</font>";
 				}
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;
 					
@@ -9853,7 +9853,7 @@ case $type272:
 		
 		case $type197:
 			if((searchavailspec($allspec, $spec700163)+searchavailspec($allspec, $spec163))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (генеральный план)</b></font>";
@@ -9862,7 +9862,7 @@ case $type272:
 		
 		case $type198:
 			if((searchavailspec($allspec, $spec252)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3)+searchavailspec($allspec, $spec700064))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (архитектурные решения)</b> либо <b>ГАПа</b></font>";
@@ -9871,7 +9871,7 @@ case $type272:
 		
 		case $type199:
 			if(searchavailspec($allspec, $spec139)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (сметная документация)</b></font>";
@@ -9880,7 +9880,7 @@ case $type272:
 		
 		case $type200:			
 		if((searchavailspec($allspec, $spec66)+searchavailspec($allspec, $spec17700066)+searchavailspec($allspec, $spec700066))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (конструктивные решения)</b></font>";
@@ -9892,7 +9892,7 @@ case $type272:
 		
 		case $type5435:
 			if((searchavailspec($allspec, $spec17700071)+searchavailspec($allspec, $spec700071)+searchavailspec($allspec, $spec71))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (холодоснабжение))</b></font>";
@@ -9901,7 +9901,7 @@ case $type272:
 		
 		case $type5436:
 			if((searchavailspec($allspec, $spec17700067)+searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -9910,7 +9910,7 @@ case $type272:
 		
 		case $type5438:
 			if((searchavailspec($allspec, $spec17700067)+searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -9919,7 +9919,7 @@ case $type272:
 		
 		case $type5441:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -9928,7 +9928,7 @@ case $type272:
 		
 		case $type5442:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -9937,7 +9937,7 @@ case $type272:
 		
 		case $type5443:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -9946,7 +9946,7 @@ case $type272:
 		
 		case $type5444:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -9954,7 +9954,7 @@ case $type272:
 		break;
 		case $type5453:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -9962,7 +9962,7 @@ case $type272:
 		break;
 		case $type5454:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -9971,7 +9971,7 @@ case $type272:
 		
 		case $type5439:
 			if((searchavailspec($allspec, $spec17700068)+searchavailspec($allspec, $spec700068)+searchavailspec($allspec, $spec68))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (отопление, вентиляция и кондиционирование воздуха))</b></font>";
@@ -9980,7 +9980,7 @@ case $type272:
 		
 		case $type5440:
 			if((searchavailspec($allspec, $spec17700068)+searchavailspec($allspec, $spec700068)+searchavailspec($allspec, $spec68))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (отопление, вентиляция и кондиционирование воздуха))</b></font>";
@@ -9990,7 +9990,7 @@ case $type272:
 		
 		case $type5437:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -10003,7 +10003,7 @@ case $type272:
 		
 		case $type5446:
 			if((searchavailspec($allspec, $spec17700070)+searchavailspec($allspec, $spec700070)+searchavailspec($allspec, $spec70))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (тепловые сети))</b></font>";
@@ -10012,7 +10012,7 @@ case $type272:
 		
 		case $type5447:
 			if((searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -10021,7 +10021,7 @@ case $type272:
 		
 		case $type5449:
 			if((searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -10031,7 +10031,7 @@ case $type272:
 		
 		case $type5450:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -10040,7 +10040,7 @@ case $type272:
 		
 		case $type5451:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -10048,7 +10048,7 @@ case $type272:
 		break;
 		case $type5455:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -10057,7 +10057,7 @@ case $type272:
 		
 		case $type5456:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -10066,7 +10066,7 @@ case $type272:
 		
 		case $type5448:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -10083,7 +10083,7 @@ case $type272:
 		
 		case $type5459:
 				if(searchavailspec($allspec, $spec249)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерно-технические мероприятия гражданской обороны. Мероприятия по предупреждению чрезвычайных ситуаций)</b></font>";
@@ -10091,7 +10091,7 @@ case $type272:
 		break;
 		case $type5460:
 				if(searchavailspec($allspec, $spec249)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерно-технические мероприятия гражданской обороны. Мероприятия по предупреждению чрезвычайных ситуаций)</b></font>";
@@ -10099,7 +10099,7 @@ case $type272:
 		break;
 		case $type5461:
 				if(searchavailspec($allspec, $spec249)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерно-технические мероприятия гражданской обороны. Мероприятия по предупреждению чрезвычайных ситуаций)</b></font>";
@@ -10108,7 +10108,7 @@ case $type272:
 		
 		case $type5462:
 			if((searchavailspec($allspec, $spec700164)+searchavailspec($allspec, $spec164))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (организация строительства)</b></font>";
@@ -10117,7 +10117,7 @@ case $type272:
 		
 		case $type5458:
 			if(searchavailspec($allspec, $spec248)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (охрана окружающей среды)</b></font>";
@@ -10184,7 +10184,7 @@ case $type272:
 				}
 					
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 		
@@ -10195,7 +10195,7 @@ case $type272:
 		searchavailspec($allspec, $spec146)+
 		searchavailspec($allspec, $spec24)+
 		searchavailspec($allspec, $spec17700024))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (общестроительные работы)</b></font>";
@@ -10206,7 +10206,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -10217,7 +10217,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -10230,7 +10230,7 @@ case $type272:
 		searchavailspec($allspec, $spec17700026)+
 		searchavailspec($allspec, $spec95)+
 		searchavailspec($allspec, $spec700095))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -10240,7 +10240,7 @@ case $type272:
 		case $type212:
 		if((searchavailspec($allspec, $spec700057)+
 		searchavailspec($allspec, $spec57))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области газоснабжения)</b></font>";
@@ -10251,7 +10251,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700030)+
 		searchavailspec($allspec, $spec30)+
 		searchavailspec($allspec, $spec17700030))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области электроснабжения и автоматизации)</b></font>";
@@ -10263,7 +10263,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700097)+
 		searchavailspec($allspec, $spec97)+
 		searchavailspec($allspec, $spec17700097))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области связи, сигнализации)</b></font>";
@@ -10275,7 +10275,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700033)+
 		searchavailspec($allspec, $spec33)+
 		searchavailspec($allspec, $spec17700033))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство автомобильных дорог и аэродромов, строительство мостов, транспортных эстакад и путепроводов)</b></font>";
@@ -10286,7 +10286,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700084)+
 		searchavailspec($allspec, $spec84)+
 		searchavailspec($allspec, $spec17700084))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство железных дорог)</b></font>";
@@ -10297,7 +10297,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
 		searchavailspec($allspec, $spec17700085))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство сооружений транспортных тоннелей, метрополитенов)</b></font>";
@@ -10307,7 +10307,7 @@ case $type272:
 		case $type218:
 		if((searchavailspec($allspec, $spec700034)+
 		searchavailspec($allspec, $spec34))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (гидротехническое и мелиоративное строительство)</b></font>";
@@ -10319,7 +10319,7 @@ case $type272:
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
 		searchavailspec($allspec, $spec113))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (благоустройство территорий)</b></font>";
@@ -10330,7 +10330,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700064)+
 		searchavailspec($allspec, $spec3)+
 		searchavailspec($allspec, $spec64))>=1 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов <b>ГАП</b> меньше 1</font>";
@@ -10413,7 +10413,7 @@ case $type272:
 				}					
 			
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 		
@@ -10426,7 +10426,7 @@ case $type272:
 		case $type229:
 				if((searchavailspec($allspec, $spec140)+searchavailspec($allspec, $spec142)+
 				searchavailspec($allspec, $spec700140)+searchavailspec($allspec, $spec700142))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>главного или ведущего геодезиста</b></font>";
@@ -10437,7 +10437,7 @@ case $type272:
 		case $type230:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10472,7 +10472,7 @@ case $type272:
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10491,7 +10491,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10511,7 +10511,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10532,7 +10532,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10552,7 +10552,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10569,7 +10569,7 @@ case $type272:
 				+searchavailspec($allspec, $spec231)+searchavailspec($allspec, $spec237)
 				+searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223)
 				+searchavailspec($allspec, $spec11))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10604,7 +10604,7 @@ case $type272:
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243)+
 				searchavailspec($allspec, $spec245)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10624,7 +10624,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10644,7 +10644,7 @@ case $type272:
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec198)+searchavailspec($allspec, $spec196))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10656,7 +10656,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec267)+searchavailspec($allspec, $spec271))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10666,7 +10666,7 @@ case $type272:
 		case $type241:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10676,7 +10676,7 @@ case $type272:
 		case $type242:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10687,7 +10687,7 @@ case $type272:
 		case $type243:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10709,7 +10709,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10742,7 +10742,7 @@ case $type272:
 				searchavailspec($allspec, $spec233)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10754,7 +10754,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec210)+searchavailspec($allspec, $spec238)+
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10765,7 +10765,7 @@ case $type272:
 		case $type247:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10779,7 +10779,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700211)+searchavailspec($allspec, $spec17700239)+
 				searchavailspec($allspec, $spec211)+searchavailspec($allspec, $spec239)+				
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10792,7 +10792,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10805,7 +10805,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10817,7 +10817,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10833,7 +10833,7 @@ case $type272:
 				searchavailspec($allspec, $spec240)+searchavailspec($allspec, $spec203)+
 				searchavailspec($allspec, $spec205)+searchavailspec($allspec, $spec231)+
 				searchavailspec($allspec, $spec235)+searchavailspec($allspec, $spec212))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
@@ -10849,7 +10849,7 @@ case $type272:
 				searchavailspec($allspec, $spec212)+searchavailspec($allspec, $spec240)+
 				searchavailspec($allspec, $spec204)+searchavailspec($allspec, $spec231)+
 				searchavailspec($allspec, $spec232))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10863,7 +10863,7 @@ case $type272:
 				searchavailspec($allspec, $spec208)+searchavailspec($allspec, $spec17700234)+
 				searchavailspec($allspec, $spec212)+searchavailspec($allspec, $spec240)+
 				searchavailspec($allspec, $spec236)+searchavailspec($allspec, $spec234))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10876,7 +10876,7 @@ case $type272:
 				searchavailspec($allspec, $spec240)+searchavailspec($allspec, $spec235)+
 				searchavailspec($allspec, $spec17700234)+searchavailspec($allspec, $spec206)+
 				searchavailspec($allspec, $spec207)+searchavailspec($allspec, $spec234))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10890,7 +10890,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700243)+searchavailspec($allspec, $spec17700245)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec245)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec216))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10903,7 +10903,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700217)+searchavailspec($allspec, $spec17700215)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec217)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec246))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10915,7 +10915,7 @@ case $type272:
 		
 		case $type259:
 				if((searchavailspec($allspec, $spec13)+searchavailspec($allspec, $spec193)+searchavailspec($allspec, $spec221))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10925,7 +10925,7 @@ case $type272:
 		case $type260:
 				if((searchavailspec($allspec, $spec0)+searchavailspec($allspec, $spec16)+
 				searchavailspec($allspec, $spec218)+searchavailspec($allspec, $spec244))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10937,7 +10937,7 @@ case $type272:
 				searchavailspec($allspec, $spec206)+searchavailspec($allspec, $spec207)+
 				searchavailspec($allspec, $spec17700234)+searchavailspec($allspec, $spec235)+
 				searchavailspec($allspec, $spec222)+searchavailspec($allspec, $spec234))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10948,7 +10948,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec19)+searchavailspec($allspec, $spec41)+
 				searchavailspec($allspec, $spec194)+searchavailspec($allspec, $spec198)+
 				searchavailspec($allspec, $spec226))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10959,7 +10959,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10970,7 +10970,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10981,7 +10981,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec710112)+searchavailspec($allspec, $spec112)+
 				searchavailspec($allspec, $spec20112)+searchavailspec($allspec, $spec192)+
 				searchavailspec($allspec, $spec220))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -10991,7 +10991,7 @@ case $type272:
 		case $type266:
 				if((searchavailspec($allspec, $spec82)+searchavailspec($allspec, $spec196)+
 				searchavailspec($allspec, $spec224))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -11002,7 +11002,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec83)+
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -11019,7 +11019,7 @@ case $type272:
 		case $type270:
 						if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)
 					+searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -11033,7 +11033,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -11045,7 +11045,7 @@ case $type272:
 				if((count(searchavailspec($allspec, $spec700093))+count(searchavailspec($allspec, $spec700135))
 					+count(searchavailspec($allspec, $spec800135))+count(searchavailspec($allspec, $spec93))+
 				count(searchavailspec($allspec, $spec17700135)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -11055,7 +11055,7 @@ case $type272:
 		
 		case $type273:
 				if(count(searchavailspec($allspec, $spec250))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно специалистов, осуществляющих <b>обследование автомобильных дорог и мостовых сооружений</b></font>";
@@ -11068,7 +11068,7 @@ case $type272:
 					+count(searchavailspec($allspec, $spec255))+count(searchavailspec($allspec, $spec256))+
 				count(searchavailspec($allspec, $spec257))+count(searchavailspec($allspec, $spec258))
 				+count(searchavailspec($allspec, $spec259)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -11096,7 +11096,7 @@ case $type272:
 		
 		case $type5595:
 		if((count(searchavailspec($allspec, $spec700166))+count(searchavailspec($allspec, $spec166))+count(searchavailspec($allspec, $spec173)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геодезические изыскания</b> меньше 2</font>";
@@ -11105,7 +11105,7 @@ case $type272:
 	
 		case $type5616:
 			if((count(searchavailspec($allspec, $spec700167))+count(searchavailspec($allspec, $spec167))+count(searchavailspec($allspec, $spec174)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геологические изыскания</b> меньше 2</font>";
@@ -11114,7 +11114,7 @@ case $type272:
 	
 		case $type5625:
 			if((count(searchavailspec($allspec, $spec700168))+count(searchavailspec($allspec, $spec168)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-гидрометеорологические изыскания</b> меньше 2</font>";
@@ -11123,7 +11123,7 @@ case $type272:
 	
 		case $type5630:
 			if((count(searchavailspec($allspec, $spec700169))+count(searchavailspec($allspec, $spec169)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-экологические изыскания</b> меньше 2</font>";
@@ -11132,7 +11132,7 @@ case $type272:
 	
 		case $type5647:
 			if((count(searchavailspec($allspec, $spec700170))+count(searchavailspec($allspec, $spec170)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>инженерно-геотехнические изыскания</b> меньше 2</font>";
@@ -11155,7 +11155,7 @@ case $type272:
 	
 		case $type5654:
 			if((count(searchavailspec($allspec, $spec171))+count(searchavailspec($allspec, $spec171)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов, осуществляющих <b>обследование состояния грунтов оснований зданий и сооружений</b> меньше 2</font>";
@@ -11165,7 +11165,7 @@ case $type272:
 	
 		case $type5655:
 			if((searchavailspec($allspec, $spec700064)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3))>=1 or (searchavailspec($allspec, $spec4)+searchavailspec($allspec, $spec148)+searchavailspec($allspec, $spec17700129)+searchavailspec($allspec, $spec129)+searchavailspec($allspec, $spec275))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного специалиста <b>ГАП</b> или <b>ГИП</b></font>";
@@ -11216,13 +11216,13 @@ case $type272:
 				echo "<font color=\"ff0000\">Количество специалистов <b>ГАП</b> или <b>ГИП</b> меньше 2</font>";
 				}
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;
 		
 		case $type5658:
 			if((searchavailspec($allspec, $spec700163)+searchavailspec($allspec, $spec163))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (генеральный план)</b></font>";
@@ -11231,7 +11231,7 @@ case $type272:
 			
 		case $type5659:
 			if((searchavailspec($allspec, $spec252)+searchavailspec($allspec, $spec64)+searchavailspec($allspec, $spec3)+searchavailspec($allspec, $spec700064))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (архитектурные решения)</b> либо <b>ГАПа</b></font>";
@@ -11240,7 +11240,7 @@ case $type272:
 				
 		case $type5660:
 			if(searchavailspec($allspec, $spec139)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (сметная документация)</b></font>";
@@ -11249,7 +11249,7 @@ case $type272:
 		
 		case $type5661:
 		if((searchavailspec($allspec, $spec66)+searchavailspec($allspec, $spec17700066)+searchavailspec($allspec, $spec700066))>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (конструктивные решения)</b></font>";
@@ -11261,7 +11261,7 @@ case $type272:
 		
 		case $type5664:
 			if((searchavailspec($allspec, $spec17700071)+searchavailspec($allspec, $spec700071)+searchavailspec($allspec, $spec71))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (холодоснабжение))</b></font>";
@@ -11270,7 +11270,7 @@ case $type272:
 				
 		case type5665:
 			if((searchavailspec($allspec, $spec17700067)+searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -11279,7 +11279,7 @@ case $type272:
 		
 		case $type5666:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -11288,7 +11288,7 @@ case $type272:
 				
 		case $type5667:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -11297,7 +11297,7 @@ case $type272:
 		
 		case $type5663:
 			if((searchavailspec($allspec, $spec17700068)+searchavailspec($allspec, $spec700068)+searchavailspec($allspec, $spec68))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (отопление, вентиляция и кондиционирование воздуха))</b></font>";
@@ -11306,7 +11306,7 @@ case $type272:
 				
 		case $type5669:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -11318,7 +11318,7 @@ case $type272:
 		
 		case $type5671:
 			if((searchavailspec($allspec, $spec17700070)+searchavailspec($allspec, $spec700070)+searchavailspec($allspec, $spec70))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (тепловые сети))</b></font>";
@@ -11327,7 +11327,7 @@ case $type272:
 			
 		case $type5672:
 			if((searchavailspec($allspec, $spec700067)+searchavailspec($allspec, $spec67))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (водоснабжение и канализация))</b></font>";
@@ -11336,7 +11336,7 @@ case $type272:
 		
 		case $type5673:
 			if((searchavailspec($allspec, $spec17700072)+searchavailspec($allspec, $spec700072)+searchavailspec($allspec, $spec72))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (электроснабжение, силовое электрооборудование и электроосвещение))</b></font>";
@@ -11345,7 +11345,7 @@ case $type272:
 		
 		case $type5674:
 			if((searchavailspec($allspec, $spec17700098)+searchavailspec($allspec, $spec700098)+searchavailspec($allspec, $spec98))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (связь и сигнализация))</b></font>";
@@ -11354,7 +11354,7 @@ case $type272:
 		
 		case $type5675:
 			if((searchavailspec($allspec, $spec17700069)+searchavailspec($allspec, $spec700069)+searchavailspec($allspec, $spec69))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (инженерное оборудование, сети и системы (система газоснабжения))</b></font>";
@@ -11366,7 +11366,7 @@ case $type272:
 		
 		case $type5678:
 			if((searchavailspec($allspec, $spec700164)+searchavailspec($allspec, $spec164))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (организация строительства)</b></font>";
@@ -11375,7 +11375,7 @@ case $type272:
 		
 		case $type5679:
 			if(searchavailspec($allspec, $spec248)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного главного специалиста, осуществляющего <b>разработку раздела проектной документации (охрана окружающей среды)</b></font>";
@@ -11441,7 +11441,7 @@ case $type272:
 				}
 					
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 		
@@ -11452,7 +11452,7 @@ case $type272:
 		searchavailspec($allspec, $spec146)+
 		searchavailspec($allspec, $spec24)+
 		searchavailspec($allspec, $spec17700024))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (общестроительные работы)</b></font>";
@@ -11463,7 +11463,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -11474,7 +11474,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -11484,7 +11484,7 @@ case $type272:
 		case $type5686:
 		if(
 		searchavailspec($allspec, $spec277)>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (устройство систем холодоснабжения)</b></font>";
@@ -11497,7 +11497,7 @@ case $type272:
 		searchavailspec($allspec, $spec17700026)+
 		searchavailspec($allspec, $spec95)+
 		searchavailspec($allspec, $spec700095))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области теплоснабжения, водоснабжения и канализации, устройства систем вентиляции, кондиционирования воздуха)</b></font>";
@@ -11507,7 +11507,7 @@ case $type272:
 		case $type5688:
 		if((searchavailspec($allspec, $spec700057)+
 		searchavailspec($allspec, $spec57))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области газоснабжения)</b></font>";
@@ -11518,7 +11518,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700030)+
 		searchavailspec($allspec, $spec30)+
 		searchavailspec($allspec, $spec17700030))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области электроснабжения и автоматизации)</b></font>";
@@ -11529,7 +11529,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700097)+
 		searchavailspec($allspec, $spec97)+
 		searchavailspec($allspec, $spec17700097))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (работы в области связи, сигнализации)</b></font>";
@@ -11540,7 +11540,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700033)+
 		searchavailspec($allspec, $spec33)+
 		searchavailspec($allspec, $spec17700033))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство автомобильных дорог и аэродромов, строительство мостов, транспортных эстакад и путепроводов)</b></font>";
@@ -11551,7 +11551,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700084)+
 		searchavailspec($allspec, $spec84)+
 		searchavailspec($allspec, $spec17700084))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство железных дорог)</b></font>";
@@ -11562,7 +11562,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
 		searchavailspec($allspec, $spec17700085))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (строительство сооружений транспортных тоннелей, метрополитенов)</b></font>";
@@ -11572,7 +11572,7 @@ case $type272:
 		case $type5694:
 		if((searchavailspec($allspec, $spec700034)+
 		searchavailspec($allspec, $spec34))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (гидротехническое и мелиоративное строительство)</b></font>";
@@ -11584,7 +11584,7 @@ case $type272:
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
 		searchavailspec($allspec, $spec113))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (благоустройство территорий)</b></font>";
@@ -11594,7 +11594,7 @@ case $type272:
 		
 		case $type5696:
 		if(searchavailspec($allspec, $spec276)>0){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (монтаж технологических трубопроводов и оборудования)</b></font>";
@@ -11605,7 +11605,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700061)+
 		searchavailspec($allspec, $spec17700061)+
 		searchavailspec($allspec, $spec61))>0 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>инженера по техническому надзору за строительством (устройство магистральных трубопроводов для транспортирования нефти, газа, нефтепродуктов)</b></font>";
@@ -11616,7 +11616,7 @@ case $type272:
 		if((searchavailspec($allspec, $spec700064)+
 		searchavailspec($allspec, $spec3)+
 		searchavailspec($allspec, $spec64))>=1 ){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Количество специалистов <b>ГАП</b> меньше 1</font>";
@@ -11702,7 +11702,7 @@ case $type272:
 				}					
 			
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;		
 		
@@ -11764,7 +11764,7 @@ case $type272:
 				}					
 			
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";		
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";		
 				}
 		break;
 		
@@ -11775,7 +11775,7 @@ case $type272:
 		case $type5709:
 				if((searchavailspec($allspec, $spec140)+searchavailspec($allspec, $spec142)+
 				searchavailspec($allspec, $spec700140)+searchavailspec($allspec, $spec700142))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет ни одного <b>главного или ведущего геодезиста</b></font>";
@@ -11786,7 +11786,7 @@ case $type272:
 		case $type5710:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -11822,7 +11822,7 @@ case $type272:
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -11840,7 +11840,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -11860,7 +11860,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -11880,7 +11880,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -11899,7 +11899,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -11908,7 +11908,7 @@ case $type272:
 		
 		case $type5716:
 				if((searchavailspec($allspec, $spec270)+searchavailspec($allspec, $spec274))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -11942,7 +11942,7 @@ case $type272:
 				searchavailspec($allspec, $spec234)+searchavailspec($allspec, $spec215)+
 				searchavailspec($allspec, $spec216)+searchavailspec($allspec, $spec243)+
 				searchavailspec($allspec, $spec245)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -11961,7 +11961,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -11981,7 +11981,7 @@ case $type272:
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec223)+
 				searchavailspec($allspec, $spec237)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec198)+searchavailspec($allspec, $spec196))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -11992,7 +11992,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec267)+searchavailspec($allspec, $spec271))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12002,7 +12002,7 @@ case $type272:
 		case $type5721:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12012,7 +12012,7 @@ case $type272:
 		case $type5722:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12022,7 +12022,7 @@ case $type272:
 		case $type5723:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)+
 				searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12043,7 +12043,7 @@ case $type272:
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12075,7 +12075,7 @@ case $type272:
 				searchavailspec($allspec, $spec233)+searchavailspec($allspec, $spec234)+
 				searchavailspec($allspec, $spec209)+searchavailspec($allspec, $spec237)+
 				searchavailspec($allspec, $spec195)+searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12088,7 +12088,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec210)+searchavailspec($allspec, $spec238)+
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12098,7 +12098,7 @@ case $type272:
 		case $type5727:
 				if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec199)+
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12111,7 +12111,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700211)+searchavailspec($allspec, $spec17700239)+
 				searchavailspec($allspec, $spec211)+searchavailspec($allspec, $spec239)+				
 				searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12123,7 +12123,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12135,7 +12135,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12147,7 +12147,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700199)+searchavailspec($allspec, $spec227)+
 				searchavailspec($allspec, $spec17700200)+searchavailspec($allspec, $spec228)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec200))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12171,7 +12171,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;
 
@@ -12190,7 +12190,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;
 		
@@ -12207,7 +12207,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;			
 
@@ -12225,7 +12225,7 @@ case $type272:
 				echo "<font color=\"ff0000\">Нет прораба(мастера) по <b>установке приборов учета тепло- и водопотребления</b></font>";
 				}	
 			else {
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 		break;		
 		
@@ -12235,7 +12235,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700243)+searchavailspec($allspec, $spec17700245)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec245)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec216))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12248,7 +12248,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700217)+searchavailspec($allspec, $spec17700215)+
 				searchavailspec($allspec, $spec215)+searchavailspec($allspec, $spec217)+
 				searchavailspec($allspec, $spec243)+searchavailspec($allspec, $spec246))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12258,7 +12258,7 @@ case $type272:
 		case $type5738:
 				if((searchavailspec($allspec, $spec13)+searchavailspec($allspec, $spec193)+
 				searchavailspec($allspec, $spec221))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12268,7 +12268,7 @@ case $type272:
 		case $type5739:
 				if((searchavailspec($allspec, $spec0)+searchavailspec($allspec, $spec16)+
 				searchavailspec($allspec, $spec218)+searchavailspec($allspec, $spec244))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12281,7 +12281,7 @@ case $type272:
 				searchavailspec($allspec, $spec206)+searchavailspec($allspec, $spec207)+
 				searchavailspec($allspec, $spec17700234)+searchavailspec($allspec, $spec235)+
 				searchavailspec($allspec, $spec222)+searchavailspec($allspec, $spec234))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12292,7 +12292,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec19)+searchavailspec($allspec, $spec41)+
 				searchavailspec($allspec, $spec194)+searchavailspec($allspec, $spec198)+
 				searchavailspec($allspec, $spec226))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12303,7 +12303,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12314,7 +12314,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec18)+searchavailspec($allspec, $spec17700195)+
 				searchavailspec($allspec, $spec17700223)+searchavailspec($allspec, $spec195)+
 				searchavailspec($allspec, $spec223))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12325,7 +12325,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec710112)+searchavailspec($allspec, $spec112)+
 				searchavailspec($allspec, $spec20112)+searchavailspec($allspec, $spec192)+
 				searchavailspec($allspec, $spec220))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12335,7 +12335,7 @@ case $type272:
 		case $type5745:
 				if((searchavailspec($allspec, $spec82)+searchavailspec($allspec, $spec196)+
 				searchavailspec($allspec, $spec224))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12346,7 +12346,7 @@ case $type272:
 				if((searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec83)+
 				searchavailspec($allspec, $spec17700237)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12355,7 +12355,7 @@ case $type272:
 
 		case $type5747:	
 				if((searchavailspec($allspec, $spec269)+searchavailspec($allspec, $spec273))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12365,7 +12365,7 @@ case $type272:
 		case $type5748:	
 				if((searchavailspec($allspec, $spec17)+searchavailspec($allspec, $spec214)
 					+searchavailspec($allspec, $spec242))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12375,7 +12375,7 @@ case $type272:
 		case $type5749:
 						if((searchavailspec($allspec, $spec9)+searchavailspec($allspec, $spec17700199)
 					+searchavailspec($allspec, $spec227)+searchavailspec($allspec, $spec199))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12388,7 +12388,7 @@ case $type272:
 				searchavailspec($allspec, $spec17700209)+searchavailspec($allspec, $spec17700237)+
 				searchavailspec($allspec, $spec199)+searchavailspec($allspec, $spec209)+
 				searchavailspec($allspec, $spec237))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12397,7 +12397,7 @@ case $type272:
 
 		case $type5751:
 				if((searchavailspec($allspec, $spec268)+searchavailspec($allspec, $spec272))>=1){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 			else {
 				echo "<font color=\"ff0000\">Нет <b>аттестованных специалистов</b></font>";
@@ -12411,7 +12411,7 @@ case $type272:
 				if((count(searchavailspec($allspec, $spec700093))+count(searchavailspec($allspec, $spec700135))
 					+count(searchavailspec($allspec, $spec800135))+count(searchavailspec($allspec, $spec93))+
 				count(searchavailspec($allspec, $spec17700135)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
@@ -12421,7 +12421,7 @@ case $type272:
 		
 		case $type5903:
 				if(count(searchavailspec($allspec, $spec250))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно специалистов, осуществляющих <b>обследование автомобильных дорог и мостовых сооружений</b></font>";
@@ -12434,7 +12434,7 @@ case $type272:
 					+count(searchavailspec($allspec, $spec255))+count(searchavailspec($allspec, $spec256))+
 				count(searchavailspec($allspec, $spec257))+count(searchavailspec($allspec, $spec258))
 				+count(searchavailspec($allspec, $spec259)))>=2){
-			echo "<font color=\"7CFC00\">СООТВЕТСТВУЕТ</font>";
+			echo "<font color=\"37bb37\"><b>СООТВЕТСТВУЕТ</b></font>";
 				}
 				else {
 				echo "<font color=\"ff0000\">Не достаточно <b>аттестованных специалистов</b></font>";
