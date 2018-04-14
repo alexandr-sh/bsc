@@ -361,184 +361,84 @@ $type5827="7. Выполнение функций генерального по�
 $type5828="7.1. строительству зданий и сооружений *";
 $type5829="7.2. строительству инженерной инфраструктуры, инженерной и транспортной инфраструктуры, магистральной инженерной инфраструктуры *";
 //добавление специалистов в переменные//
-$spec3=3;
-$spec9=9;
-$spec10=10;
-$spec11=11;
-$spec12=12;
-$spec13=13;
-$spec71043=71043;
-$spec15=15;
-$spec71044=71044;
 $spec0="null";
-$spec17=17;
-$spec18=18;
-$spec71045=71045;
-$spec19=19;
-$spec700024=700024;
-$spec700026=700026;
-$spec700030=700030;
-$spec700033=700033;
-$spec700034=700034;
-$spec38=38;
-$spec71039=71039;
-$spec40=40;
-$spec71046=71046;
-$spec41=41;
-$spec71048=71048;
-$spec71047=71047;
-$spec50=50;
-$spec51="null";
-$spec52="null";
-$spec53="null";
-$spec54="null";
-$spec55="null";
-$spec56="null";
-$spec700057=700057;
-$spec58=58;
-$spec111=111;
-$spec700004=700004;
-$spec71059=71059;
-$spec60=60;
-$spec700061=700061;
-$spec62=62;
-$spec71063=71063;
-$spec82=82;
-$spec700097=700097;
-$spec700064=700064;
-$spec16=16;
-$spec700066=700066;
-$spec700067=700067;
-$spec700068=700068;
-$spec700069=700069;
-$spec700070=700070;
-$spec700071=700071;
-$spec700072=700072;
-$spec71073=71073;
-$spec71074=71074;
-$spec76=76;
-$spec77=77;
-$spec78=78;
-$spec79=79;
-$spec127=127;
-$spec700128=700128;
-$spec80=80;
-$spec700084=700084;
-$spec81=81;
-$spec83=83;
-$spec700085=700085;
-$spec700129=700129;
-$spec700136=700136;
-$spec710126=710126;
-$spec90=90;
-$spec91=91;
-$spec700093=700093;
-$spec94=94;
-$spec700095=700095;
-$spec71096=71096;
-$spec700137=700137;
-$spec700098=700098;
-$spec700099=700099;
-$spec700101=700101;
-$spec700102=700102;
-$spec700103=700103;
-$spec700104=700104;
-$spec700138=700138;
-$spec700139=700139;
-$spec700047=700047;
-$spec700105=700105;
-$spec700106=700106;
-$spec700107=700107;
-$spec700108=700108;
-$spec700109=700109;
+$spec10=10;
+$spec101=101;
+$spec102=102;
+$spec103=103;
+$spec104=104;
+$spec105=105;
+$spec106=106;
+$spec107=107;
+$spec108=108;
+$spec109=109;
+$spec11=11;
 $spec110=110;
-$spec710112=710112;
-$spec710113=710113;
-$spec710114=710114;
-$spec710115=710115;
-$spec710116=710116;
-$spec710117=710117;
-$spec710118=710118;
+$spec111=111;
+$spec112=112;
+$spec113=113;
+$spec114=114;
+$spec115=115;
+$spec116=116;
+$spec117=117;
+$spec118=118;
+$spec119=119;
+$spec12=12;
+$spec120=120;
+$spec121=121;
+$spec122=122;
+$spec123=123;
+$spec124=124;
+$spec125=125;
+$spec126=126;
+$spec127=127;
+$spec128=128;
+$spec129=129;
+$spec13=13;
+$spec136=136;
+$spec137=137;
+$spec138=138;
+$spec139=139;
+$spec14="null";
+$spec140=140;
+$spec141=141;
+$spec142=142;
 $spec143=143;
-$spec710119=710119;
-$spec710120=710120;
-$spec710121=710121;
-$spec710122=710122;
-$spec710123=710123;
-$spec710124=710124;
-$spec710125=710125;
-$spec700140=700140;
-$spec700141=700141;
-$spec700142=700142;
 $spec144=144;
-$spec710128=710128;
 $spec145=145;
 $spec146=146;
-$spec700048=700048;
-$spec700045=700045;
-$spec700046=700046;
-$spec700073=700073;
-$spec700059=700059;
-$spec700039=700039;
-$spec700126=700126;
-$spec700043=700043;
-$spec700096=700096;
-$spec700074=700074;
-$spec700063=700063;
-$spec700044=700044;
-$spec700120=700120;
-$spec700115=700115;
-$spec700122=700122;
-$spec700124=700124;
-$spec700125=700125;
-$spec700114=700114;
-$spec700117=700117;
-$spec700121=700121;
-$spec700123=700123;
-$spec700118=700118;
-$spec700116=700116;
-$spec700119=700119;
-$spec700147=700147;
-$spec20113=20113;
-$spec20112=20112;
+$spec147=147;
+$spec148=148;
+$spec15=15;
 $spec150=150;
-$spec112=112;
-$spec700113=700113;
-$spec152=152;
 $spec151=151;
+$spec152=152;
 $spec153=153;
-$spec4=4;
-$spec64=64;
 $spec154=154;
 $spec155=155;
-$spec42=42;
-$spec14="null";
-$spec148=148;
-$spec75="null";
-$spec700135=700135;
-$spec700187=700187;
-$spec700163=700163;
-$spec700162=700162;
-$spec700167=700167;
-$spec700164=700164;
-$spec700168=700168;
-$spec700169=700169;
-$spec700166=700166;
-$spec700170=700170;
-$spec188=188;
-$spec189=189;
-$spec700171=700171;
+$spec16=16;
+$spec162=162;
+$spec163=163;
+$spec164=164;
+$spec166=166;
+$spec167=167;
+$spec168=168;
+$spec169=169;
+$spec17=17;
+$spec170=170;
+$spec171=171;
 $spec173=173;
 $spec174=174;
-$spec700190=700190;
 $spec17700024=17700024;
 $spec17700026=17700026;
 $spec17700030=17700030;
 $spec17700033=17700033;
-$spec34=34;
-$spec17700084=17700084;
-$spec17700085=17700085;
-$spec57=57;
+$spec17700043=17700043;
+$spec17700044=17700044;
+$spec17700046=17700046;
+$spec17700047=17700047;
+$spec17700048=17700048;
+$spec17700059=17700059;
 $spec17700061=17700061;
 $spec17700066=17700066;
 $spec17700067=17700067;
@@ -547,8 +447,9 @@ $spec17700069=17700069;
 $spec17700070=17700070;
 $spec17700071=17700071;
 $spec17700072=17700072;
-$spec141=141;
-$spec95=95;
+$spec17700074=17700074;
+$spec17700084=17700084;
+$spec17700085=17700085;
 $spec17700097=17700097;
 $spec17700098=17700098;
 $spec17700099=17700099;
@@ -561,186 +462,128 @@ $spec17700106=17700106;
 $spec17700107=17700107;
 $spec17700108=17700108;
 $spec17700109=17700109;
+$spec17700114=17700114;
+$spec17700115=17700115;
+$spec17700118=17700118;
+$spec17700120=17700120;
+$spec17700121=17700121;
+$spec17700124=17700124;
 $spec17700129=17700129;
-$spec800135=800135;
-$spec136=136;
-$spec138=138;
-$spec139=139;
-$spec247=247;
-$spec140=140;
-$spec137=137;
-$spec142=142;
-$spec147=147;
-$spec187=187;
-$spec163=163;
-$spec162=162;
-$spec167=167;
-$spec164=164;
-$spec168=168;
-$spec169=169;
-$spec166=166;
-$spec170=170;
-$spec192=192;
-$spec171=171;
-$spec193=193;
-$spec194=194;
+$spec17700135=17700135;
 $spec17700195=17700195;
-$spec196=196;
-$spec190=190;
 $spec17700197=17700197;
-$spec198=198;
 $spec17700199=17700199;
 $spec17700200=17700200;
-$spec202=202;
 $spec17700203=17700203;
 $spec17700204=17700204;
 $spec17700205=17700205;
-$spec206=206;
-$spec207=207;
-$spec208=208;
 $spec17700209=17700209;
-$spec210=210;
 $spec17700211=17700211;
-$spec212=212;
-$spec213="null";
-$spec214=214;
 $spec17700215=17700215;
 $spec17700216=17700216;
 $spec17700217=17700217;
-$spec218=218;
-$spec220=220;
-$spec221=221;
-$spec222=222;
 $spec17700223=17700223;
-$spec224=224;
 $spec17700225=17700225;
-$spec226=226;
-$spec227=227;
-$spec228=228;
-$spec230=230;
 $spec17700231=17700231;
 $spec17700232=17700232;
 $spec17700233=17700233;
 $spec17700234=17700234;
-$spec235=235;
-$spec236=236;
 $spec17700237=17700237;
-$spec238=238;
 $spec17700239=17700239;
-$spec240=240;
-$spec241="null";
-$spec242=242;
 $spec17700243=17700243;
-$spec244=244;
 $spec17700245=17700245;
 $spec17700246=17700246;
-$spec93=93;
-$spec92="null";
-$spec17700043=17700043;
-$spec17700044=17700044;
-$spec45=45;
-$spec39=39;
-$spec17700046=17700046;
-$spec17700048=17700048;
-$spec17700047=17700047;
-$spec113=113;
-$spec17700059=17700059;
-$spec63=63;
-$spec73=73;
-$spec17700074=17700074;
-$spec96=96;
-$spec17700114=17700114;
-$spec17700115=17700115;
-$spec116=116;
-$spec117=117;
-$spec17700118=17700118;
-$spec119=119;
-$spec17700120=17700120;
-$spec17700121=17700121;
-$spec126=126;
-$spec122=122;
-$spec123=123;
-$spec17700124=17700124;
-$spec125=125;
-$spec128=128;
-$spec278=278;
-$spec43=43;
-$spec44=44;
-$spec24=24;
-$spec26=26;
-$spec30=30;
-$spec33=33;
-$spec46=46;
-$spec48=48;
-$spec47=47;
-$spec84=84;
-$spec85=85;
-$spec59=59;
-$spec61=61;
-$spec66=66;
-$spec67=67;
-$spec68=68;
-$spec69=69;
-$spec70=70;
-$spec71=71;
-$spec72=72;
-$spec74=74;
-$spec97=97;
-$spec98=98;
-$spec99=99;
-$spec101=101;
-$spec102=102;
-$spec103=103;
-$spec104=104;
-$spec105=105;
-$spec106=106;
-$spec107=107;
-$spec108=108;
-$spec109=109;
-$spec114=114;
-$spec115=115;
-$spec118=118;
-$spec120=120;
-$spec121=121;
-$spec124=124;
-$spec129=129;
-$spec17700135=17700135;
-$spec251=251;
-$spec248=248;
-$spec252=252;
+$spec18=18;
+$spec187=187;
+$spec18700024=18700024;
+$spec18700026=18700026;
+$spec18700030=18700030;
+$spec18700033=18700033;
+$spec18700034=18700034;
+$spec18700057=18700057;
+$spec18700061=18700061;
+$spec18700084=18700084;
+$spec18700085=18700085;
+$spec18700095=18700095;
+$spec18700097=18700097;
+$spec18700113=18700113;
+$spec18700187=18700187;
+$spec18700251=18700251;
+$spec18700276=18700276;
+$spec18700277=18700277;
+$spec188=188;
+$spec189=189;
+$spec19=19;
+$spec190=190;
+$spec192=192;
+$spec193=193;
+$spec194=194;
 $spec195=195;
-$spec275=275;
-$spec249=249;
+$spec196=196;
 $spec197=197;
+$spec198=198;
 $spec199=199;
 $spec200=200;
+$spec20112=20112;
+$spec20113=20113;
+$spec202=202;
 $spec203=203;
 $spec204=204;
 $spec205=205;
+$spec206=206;
+$spec207=207;
+$spec208=208;
 $spec209=209;
+$spec210=210;
 $spec211=211;
+$spec212=212;
+$spec213="null";
+$spec214=214;
 $spec215=215;
 $spec216=216;
 $spec217=217;
+$spec218=218;
+$spec220=220;
+$spec221=221;
+$spec222=222;
 $spec223=223;
+$spec224=224;
 $spec225=225;
+$spec226=226;
+$spec227=227;
+$spec228=228;
+$spec230=230;
 $spec231=231;
 $spec232=232;
 $spec233=233;
 $spec234=234;
+$spec235=235;
+$spec236=236;
 $spec237=237;
+$spec238=238;
 $spec239=239;
-$spec253=253;
+$spec24=24;
+$spec240=240;
+$spec241="null";
+$spec242=242;
 $spec243=243;
+$spec244=244;
 $spec245=245;
 $spec246=246;
+$spec247=247;
+$spec248=248;
+$spec249=249;
+$spec250=250;
+$spec251=251;
+$spec252=252;
+$spec253=253;
 $spec254=254;
 $spec255=255;
 $spec256=256;
-$spec250=250;
 $spec257=257;
 $spec258=258;
 $spec259=259;
+$spec26=26;
 $spec260=260;
 $spec261=261;
 $spec262=262;
@@ -756,8 +599,183 @@ $spec271=271;
 $spec272=272;
 $spec273=273;
 $spec274=274;
+$spec275=275;
 $spec276=276;
 $spec277=277;
+$spec278=278;
+$spec3=3;
+$spec30=30;
+$spec33=33;
+$spec34=34;
+$spec38=38;
+$spec39=39;
+$spec4=4;
+$spec40=40;
+$spec41=41;
+$spec42=42;
+$spec43=43;
+$spec44=44;
+$spec45=45;
+$spec46=46;
+$spec47=47;
+$spec48=48;
+$spec50=50;
+$spec51="null";
+$spec52="null";
+$spec53="null";
+$spec54="null";
+$spec55="null";
+$spec56="null";
+$spec57=57;
+$spec58=58;
+$spec59=59;
+$spec60=60;
+$spec61=61;
+$spec62=62;
+$spec63=63;
+$spec64=64;
+$spec66=66;
+$spec67=67;
+$spec68=68;
+$spec69=69;
+$spec70=70;
+$spec700004=700004;
+$spec700024=700024;
+$spec700026=700026;
+$spec700030=700030;
+$spec700033=700033;
+$spec700034=700034;
+$spec700039=700039;
+$spec700043=700043;
+$spec700044=700044;
+$spec700045=700045;
+$spec700046=700046;
+$spec700047=700047;
+$spec700048=700048;
+$spec700057=700057;
+$spec700059=700059;
+$spec700061=700061;
+$spec700063=700063;
+$spec700064=700064;
+$spec700066=700066;
+$spec700067=700067;
+$spec700068=700068;
+$spec700069=700069;
+$spec700070=700070;
+$spec700071=700071;
+$spec700072=700072;
+$spec700073=700073;
+$spec700074=700074;
+$spec700084=700084;
+$spec700085=700085;
+$spec700093=700093;
+$spec700095=700095;
+$spec700096=700096;
+$spec700097=700097;
+$spec700098=700098;
+$spec700099=700099;
+$spec700101=700101;
+$spec700102=700102;
+$spec700103=700103;
+$spec700104=700104;
+$spec700105=700105;
+$spec700106=700106;
+$spec700107=700107;
+$spec700108=700108;
+$spec700109=700109;
+$spec700113=700113;
+$spec700114=700114;
+$spec700115=700115;
+$spec700116=700116;
+$spec700117=700117;
+$spec700118=700118;
+$spec700119=700119;
+$spec700120=700120;
+$spec700121=700121;
+$spec700122=700122;
+$spec700123=700123;
+$spec700124=700124;
+$spec700125=700125;
+$spec700126=700126;
+$spec700128=700128;
+$spec700129=700129;
+$spec700135=700135;
+$spec700136=700136;
+$spec700137=700137;
+$spec700138=700138;
+$spec700139=700139;
+$spec700140=700140;
+$spec700141=700141;
+$spec700142=700142;
+$spec700147=700147;
+$spec700162=700162;
+$spec700163=700163;
+$spec700164=700164;
+$spec700166=700166;
+$spec700167=700167;
+$spec700168=700168;
+$spec700169=700169;
+$spec700170=700170;
+$spec700171=700171;
+$spec700187=700187;
+$spec700190=700190;
+$spec71=71;
+$spec710112=710112;
+$spec710113=710113;
+$spec710114=710114;
+$spec710115=710115;
+$spec710116=710116;
+$spec710117=710117;
+$spec710118=710118;
+$spec710119=710119;
+$spec710120=710120;
+$spec710121=710121;
+$spec710122=710122;
+$spec710123=710123;
+$spec710124=710124;
+$spec710125=710125;
+$spec710126=710126;
+$spec710128=710128;
+$spec71039=71039;
+$spec71043=71043;
+$spec71044=71044;
+$spec71045=71045;
+$spec71046=71046;
+$spec71047=71047;
+$spec71048=71048;
+$spec71059=71059;
+$spec71063=71063;
+$spec71073=71073;
+$spec71074=71074;
+$spec71096=71096;
+$spec72=72;
+$spec73=73;
+$spec74=74;
+$spec75="null";
+$spec76=76;
+$spec77=77;
+$spec78=78;
+$spec79=79;
+$spec80=80;
+$spec800135=800135;
+$spec81=81;
+$spec82=82;
+$spec83=83;
+$spec84=84;
+$spec85=85;
+$spec9=9;
+$spec90=90;
+$spec91=91;
+$spec92="null";
+$spec93=93;
+$spec94=94;
+$spec95=95;
+$spec96=96;
+$spec97=97;
+$spec98=98;
+$spec99=99;
+
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 $personnel_main_request=views_get_view_result('personal_for_data', $display_id ='default', array($row->nid));
@@ -1270,9 +1288,24 @@ switch ($category) {
 			$count=countoverzero(searchavailspec($allspec, $spec17700085),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700061),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700024),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700026),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700030),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700033),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700034),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700057),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700061),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700084),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700085),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700095),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700113),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700276),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700277),$count);
 			
 			if((searchavailspec($allspec, $spec40)+
 				searchavailspec($allspec, $spec187)+
+				searchavailspec($allspec, $spec18700187)+
 				searchavailspec($allspec, $spec188)+
 				searchavailspec($allspec, $spec189)+
 				searchavailspec($allspec, $spec700187))<3){
@@ -1296,6 +1329,7 @@ switch ($category) {
 				searchavailspec($allspec, $spec145)+
 				searchavailspec($allspec, $spec146)+
 				searchavailspec($allspec, $spec24)+
+				searchavailspec($allspec, $spec18700024)+
 				searchavailspec($allspec, $spec17700024))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -1307,6 +1341,7 @@ switch ($category) {
 		case $type209:
 			if((searchavailspec($allspec, $spec700026)+
 				searchavailspec($allspec, $spec26)+
+				searchavailspec($allspec, $spec18700026)+
 				searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -1318,6 +1353,7 @@ switch ($category) {
 		case $type210:
 			if((searchavailspec($allspec, $spec700026)+
 				searchavailspec($allspec, $spec26)+
+				searchavailspec($allspec, $spec18700026)+
 				searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -1329,8 +1365,10 @@ switch ($category) {
 		case $type211:
 			if((searchavailspec($allspec, $spec700026)+
 				searchavailspec($allspec, $spec26)+
+				searchavailspec($allspec, $spec18700026)+
 				searchavailspec($allspec, $spec17700026)+
 				searchavailspec($allspec, $spec95)+
+				searchavailspec($allspec, $spec18700095)+
 				searchavailspec($allspec, $spec700095))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -1341,6 +1379,7 @@ switch ($category) {
 		
 		case $type212:
 			if((searchavailspec($allspec, $spec700057)+
+			searchavailspec($allspec, $spec18700057)+
 				searchavailspec($allspec, $spec57))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -1352,6 +1391,7 @@ switch ($category) {
 		case $type213:
 			if((searchavailspec($allspec, $spec700030)+
 				searchavailspec($allspec, $spec30)+
+				searchavailspec($allspec, $spec18700030)+
 				searchavailspec($allspec, $spec17700030))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -1363,6 +1403,7 @@ switch ($category) {
 		case $type214:
 			if((searchavailspec($allspec, $spec700097)+
 				searchavailspec($allspec, $spec97)+
+				searchavailspec($allspec, $spec18700097)+
 				searchavailspec($allspec, $spec17700097))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -1374,6 +1415,7 @@ switch ($category) {
 		case $type215:
 			if((searchavailspec($allspec, $spec700033)+
 				searchavailspec($allspec, $spec33)+
+				searchavailspec($allspec, $spec18700033)+
 				searchavailspec($allspec, $spec17700033))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -1385,6 +1427,7 @@ switch ($category) {
 		case $type216:
 			if((searchavailspec($allspec, $spec700084)+
 				searchavailspec($allspec, $spec84)+
+				searchavailspec($allspec, $spec18700084)+
 				searchavailspec($allspec, $spec17700084))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -1396,6 +1439,7 @@ switch ($category) {
 		case $type217:
 			if((searchavailspec($allspec, $spec700085)+
 				searchavailspec($allspec, $spec85)+
+				searchavailspec($allspec, $spec18700085)+
 				searchavailspec($allspec, $spec17700085))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -1406,6 +1450,7 @@ switch ($category) {
 
 		case $type218:
 			if((searchavailspec($allspec, $spec700034)+
+			searchavailspec($allspec, $spec18700034)+
 				searchavailspec($allspec, $spec34))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -1418,6 +1463,7 @@ switch ($category) {
 			if((searchavailspec($allspec, $spec710113)+
 				searchavailspec($allspec, $spec20113)+
 				searchavailspec($allspec, $spec700113)+
+				searchavailspec($allspec, $spec18700113)+
 				searchavailspec($allspec, $spec113))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -2997,9 +3043,24 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 			$count=countoverzero(searchavailspec($allspec, $spec17700085),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700061),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700024),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700026),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700030),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700033),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700034),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700057),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700061),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700084),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700085),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700095),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700113),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700276),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700277),$count);
 			
 			if((searchavailspec($allspec, $spec40)+
 				searchavailspec($allspec, $spec187)+
+				searchavailspec($allspec, $spec18700187)+
 				searchavailspec($allspec, $spec188)+
 				searchavailspec($allspec, $spec189)+
 				searchavailspec($allspec, $spec700187))<3){
@@ -3024,6 +3085,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 				searchavailspec($allspec, $spec145)+
 				searchavailspec($allspec, $spec146)+
 				searchavailspec($allspec, $spec24)+
+				searchavailspec($allspec, $spec18700024)+
 				searchavailspec($allspec, $spec17700024))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -3036,6 +3098,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type5935:
 			if((searchavailspec($allspec, $spec700026)+
 				searchavailspec($allspec, $spec26)+
+				searchavailspec($allspec, $spec18700026)+
 				searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -3048,6 +3111,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type5936:
 			if((searchavailspec($allspec, $spec700026)+
 				searchavailspec($allspec, $spec26)+
+				searchavailspec($allspec, $spec18700026)+
 				searchavailspec($allspec, $spec17700026))>0){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -3058,7 +3122,8 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		
 		case $type5686:
 		case $type5937:
-			if(searchavailspec($allspec, $spec277)>0){
+			if((searchavailspec($allspec, $spec277)+
+		searchavailspec($allspec, $spec18700277))>0){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
 			else {
@@ -3070,8 +3135,10 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type5938:
 			if((searchavailspec($allspec, $spec700026)+
 				searchavailspec($allspec, $spec26)+
+				searchavailspec($allspec, $spec18700026)+
 				searchavailspec($allspec, $spec17700026)+
 				searchavailspec($allspec, $spec95)+
+				searchavailspec($allspec, $spec18700095)+
 				searchavailspec($allspec, $spec700095))>0){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -3083,6 +3150,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type5688:
 		case $type5939:
 			if((searchavailspec($allspec, $spec700057)+
+			searchavailspec($allspec, $spec18700057)+
 				searchavailspec($allspec, $spec57))>0){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -3095,6 +3163,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type5940:
 			if((searchavailspec($allspec, $spec700030)+
 				searchavailspec($allspec, $spec30)+
+				searchavailspec($allspec, $spec18700030)+
 				searchavailspec($allspec, $spec17700030))>0){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -3107,6 +3176,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type5941:
 			if((searchavailspec($allspec, $spec700097)+
 				searchavailspec($allspec, $spec97)+
+				searchavailspec($allspec, $spec18700097)+
 				searchavailspec($allspec, $spec17700097))>0){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -3119,6 +3189,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type5942:
 			if((searchavailspec($allspec, $spec700033)+
 				searchavailspec($allspec, $spec33)+
+				searchavailspec($allspec, $spec18700033)+
 				searchavailspec($allspec, $spec17700033))>0){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -3131,6 +3202,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type5943:
 			if((searchavailspec($allspec, $spec700084)+
 				searchavailspec($allspec, $spec84)+
+				searchavailspec($allspec, $spec18700084)+
 				searchavailspec($allspec, $spec17700084))>0){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -3143,6 +3215,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type5944:
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
+		searchavailspec($allspec, $spec18700085)+
 		searchavailspec($allspec, $spec17700085))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -3154,6 +3227,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type5694:
 		case $type5945:
 		if((searchavailspec($allspec, $spec700034)+
+		searchavailspec($allspec, $spec18700034)+
 		searchavailspec($allspec, $spec34))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -3166,6 +3240,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		if((searchavailspec($allspec, $spec710113)+
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
+		searchavailspec($allspec, $spec18700113)+
 		searchavailspec($allspec, $spec113))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -3177,7 +3252,8 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		
 		case $type5696:
 		case $type5946:
-		if(searchavailspec($allspec, $spec276)>0){
+		if((searchavailspec($allspec, $spec276)+
+		searchavailspec($allspec, $spec18700276))>0){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
 			else {
@@ -3189,6 +3265,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type5947:
 		if((searchavailspec($allspec, $spec700061)+
 		searchavailspec($allspec, $spec17700061)+
+		searchavailspec($allspec, $spec18700061)+
 		searchavailspec($allspec, $spec61))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -4691,9 +4768,25 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 			$count=countoverzero(searchavailspec($allspec, $spec17700085),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700061),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700024),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700026),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700030),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700033),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700034),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700057),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700061),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700084),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700085),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700095),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700113),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700276),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700277),$count);
 				
 		if((searchavailspec($allspec, $spec40)+searchavailspec($allspec, $spec700187)
-			+searchavailspec($allspec, $spec188)+searchavailspec($allspec, $spec189)+searchavailspec($allspec, $spec187))<2)
+			+searchavailspec($allspec, $spec188)+searchavailspec($allspec, $spec189)+
+		searchavailspec($allspec, $spec18700187)+
+		searchavailspec($allspec, $spec187))<2)
 		{
 			echo '<div class="red">Количество руководителей проекта меньше 2</div>';
 				}		
@@ -4715,6 +4808,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		searchavailspec($allspec, $spec145)+
 		searchavailspec($allspec, $spec146)+
 		searchavailspec($allspec, $spec24)+
+		searchavailspec($allspec, $spec18700024)+
 		searchavailspec($allspec, $spec17700024))<0 ){
 			echo '<div class="red">Нет ни одного инженера по техническому надзору за строительством (общестроительные работы)</div>';
 				}
@@ -4726,6 +4820,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type209:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -4737,6 +4832,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type210:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -4748,8 +4844,10 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type211:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026)+
 		searchavailspec($allspec, $spec95)+
+		searchavailspec($allspec, $spec18700095)+
 		searchavailspec($allspec, $spec700095))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -4760,6 +4858,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		
 		case $type212:
 		if((searchavailspec($allspec, $spec700057)+
+		searchavailspec($allspec, $spec18700057)+
 		searchavailspec($allspec, $spec57))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -4771,6 +4870,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type213:
 		if((searchavailspec($allspec, $spec700030)+
 		searchavailspec($allspec, $spec30)+
+		searchavailspec($allspec, $spec18700030)+
 		searchavailspec($allspec, $spec17700030))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -4782,6 +4882,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type214:
 		if((searchavailspec($allspec, $spec700097)+
 		searchavailspec($allspec, $spec97)+
+		searchavailspec($allspec, $spec18700097)+
 		searchavailspec($allspec, $spec17700097))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -4793,6 +4894,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type215:
 		if((searchavailspec($allspec, $spec700033)+
 		searchavailspec($allspec, $spec33)+
+		searchavailspec($allspec, $spec18700033)+
 		searchavailspec($allspec, $spec17700033))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -4804,6 +4906,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type216:
 		if((searchavailspec($allspec, $spec700084)+
 		searchavailspec($allspec, $spec84)+
+		searchavailspec($allspec, $spec18700084)+
 		searchavailspec($allspec, $spec17700084))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -4815,6 +4918,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		case $type217:
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
+		searchavailspec($allspec, $spec18700085)+
 		searchavailspec($allspec, $spec17700085))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -4825,6 +4929,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 
 		case $type218:
 		if((searchavailspec($allspec, $spec700034)+
+		searchavailspec($allspec, $spec18700034)+
 		searchavailspec($allspec, $spec34))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -4837,6 +4942,7 @@ for ($i = 0; $i <= count($types_of_jobs[$k]->field_field_vidy_rabot_13_05_2017_)
 		if((searchavailspec($allspec, $spec710113)+
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
+		searchavailspec($allspec, $spec18700113)+
 		searchavailspec($allspec, $spec113))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -6404,9 +6510,25 @@ case $type239:
 			$count=countoverzero(searchavailspec($allspec, $spec17700085),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700061),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700024),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700026),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700030),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700033),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700034),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700057),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700061),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700084),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700085),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700095),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700113),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700276),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700277),$count);
 				
 		if((searchavailspec($allspec, $spec40)+searchavailspec($allspec, $spec700187)
-			+searchavailspec($allspec, $spec188)+searchavailspec($allspec, $spec189)+searchavailspec($allspec, $spec187))<2)
+			+searchavailspec($allspec, $spec188)+searchavailspec($allspec, $spec189)+
+		    searchavailspec($allspec, $spec18700187)+
+			searchavailspec($allspec, $spec187))<2)
 		{
 			echo '<div class="red">Количество руководителей проекта меньше 2</div>';
 				}		
@@ -6429,6 +6551,7 @@ case $type239:
 		searchavailspec($allspec, $spec145)+
 		searchavailspec($allspec, $spec146)+
 		searchavailspec($allspec, $spec24)+
+		searchavailspec($allspec, $spec18700024)+
 		searchavailspec($allspec, $spec17700024))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -6441,6 +6564,7 @@ case $type239:
 		case $type5935:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -6453,6 +6577,7 @@ case $type239:
 		case $type5936:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -6463,8 +6588,8 @@ case $type239:
 		
 		case $type5686:
 		case $type5937:
-		if(
-		searchavailspec($allspec, $spec277)>0 ){
+		if((searchavailspec($allspec, $spec277)+
+		searchavailspec($allspec, $spec18700277))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
 			else {
@@ -6476,8 +6601,10 @@ case $type239:
 		case $type5938:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026)+
 		searchavailspec($allspec, $spec95)+
+		searchavailspec($allspec, $spec18700095)+
 		searchavailspec($allspec, $spec700095))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -6489,6 +6616,7 @@ case $type239:
 		case $type5688:
 		case $type5939:
 		if((searchavailspec($allspec, $spec700057)+
+		searchavailspec($allspec, $spec18700057)+
 		searchavailspec($allspec, $spec57))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -6501,6 +6629,7 @@ case $type239:
 		case $type5940:
 		if((searchavailspec($allspec, $spec700030)+
 		searchavailspec($allspec, $spec30)+
+		searchavailspec($allspec, $spec18700030)+
 		searchavailspec($allspec, $spec17700030))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -6513,6 +6642,7 @@ case $type239:
 		case $type5941:
 		if((searchavailspec($allspec, $spec700097)+
 		searchavailspec($allspec, $spec97)+
+		searchavailspec($allspec, $spec18700097)+
 		searchavailspec($allspec, $spec17700097))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -6525,6 +6655,7 @@ case $type239:
 		case $type5942:
 		if((searchavailspec($allspec, $spec700033)+
 		searchavailspec($allspec, $spec33)+
+		searchavailspec($allspec, $spec18700033)+
 		searchavailspec($allspec, $spec17700033))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -6537,6 +6668,7 @@ case $type239:
 		case $type5943:
 		if((searchavailspec($allspec, $spec700084)+
 		searchavailspec($allspec, $spec84)+
+		searchavailspec($allspec, $spec18700084)+
 		searchavailspec($allspec, $spec17700084))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -6549,6 +6681,7 @@ case $type239:
 		case $type5944:
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
+		searchavailspec($allspec, $spec18700085)+
 		searchavailspec($allspec, $spec17700085))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -6560,6 +6693,7 @@ case $type239:
 		case $type5694:
 		case $type5945:
 		if((searchavailspec($allspec, $spec700034)+
+		searchavailspec($allspec, $spec18700034)+
 		searchavailspec($allspec, $spec34))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -6572,6 +6706,7 @@ case $type239:
 		if((searchavailspec($allspec, $spec710113)+
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
+		searchavailspec($allspec, $spec18700113)+
 		searchavailspec($allspec, $spec113))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -6582,7 +6717,8 @@ case $type239:
 			
 		case $type5696:
 		case $type5946:
-		if(searchavailspec($allspec, $spec276)>0){
+		if((searchavailspec($allspec, $spec276)+
+		searchavailspec($allspec, $spec18700276))>0){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
 			else {
@@ -6594,6 +6730,7 @@ case $type239:
 		case $type5947:
 		if((searchavailspec($allspec, $spec700061)+
 		searchavailspec($allspec, $spec17700061)+
+		searchavailspec($allspec, $spec18700061)+
 		searchavailspec($allspec, $spec61))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -8029,8 +8166,24 @@ case $type239:
 			$count=countoverzero(searchavailspec($allspec, $spec17700085),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700061),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700024),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700026),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700030),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700033),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700034),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700057),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700061),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700084),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700085),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700095),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700113),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700276),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700277),$count);
 			
-		if((searchavailspec($allspec, $spec40)+searchavailspec($allspec, $spec700187)+searchavailspec($allspec, $spec188)+searchavailspec($allspec, $spec189)+searchavailspec($allspec, $spec187))<1)
+		if((searchavailspec($allspec, $spec40)+searchavailspec($allspec, $spec700187)+searchavailspec($allspec, $spec188)+searchavailspec($allspec, $spec189)+
+		searchavailspec($allspec, $spec18700187)+
+		searchavailspec($allspec, $spec187))<1)
 		{
 				echo '<div class="red">Нет ни одного руководителя проекта</div>';
 				}						
@@ -8052,6 +8205,7 @@ case $type239:
 		searchavailspec($allspec, $spec145)+
 		searchavailspec($allspec, $spec146)+
 		searchavailspec($allspec, $spec24)+
+		searchavailspec($allspec, $spec18700024)+
 		searchavailspec($allspec, $spec17700024))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -8063,6 +8217,7 @@ case $type239:
 		case $type209:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -8074,6 +8229,7 @@ case $type239:
 		case $type210:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -8085,8 +8241,10 @@ case $type239:
 		case $type211:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026)+
 		searchavailspec($allspec, $spec95)+
+		searchavailspec($allspec, $spec18700095)+
 		searchavailspec($allspec, $spec700095))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -8097,6 +8255,7 @@ case $type239:
 		
 		case $type212:
 		if((searchavailspec($allspec, $spec700057)+
+		searchavailspec($allspec, $spec18700057)+
 		searchavailspec($allspec, $spec57))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -8108,6 +8267,7 @@ case $type239:
 		case $type213:
 		if((searchavailspec($allspec, $spec700030)+
 		searchavailspec($allspec, $spec30)+
+		searchavailspec($allspec, $spec18700030)+
 		searchavailspec($allspec, $spec17700030))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -8119,6 +8279,7 @@ case $type239:
 		case $type214:
 		if((searchavailspec($allspec, $spec700097)+
 		searchavailspec($allspec, $spec97)+
+		searchavailspec($allspec, $spec18700097)+
 		searchavailspec($allspec, $spec17700097))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -8130,6 +8291,7 @@ case $type239:
 		case $type215:
 		if((searchavailspec($allspec, $spec700033)+
 		searchavailspec($allspec, $spec33)+
+		searchavailspec($allspec, $spec18700033)+
 		searchavailspec($allspec, $spec17700033))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -8141,6 +8303,7 @@ case $type239:
 		case $type216:
 		if((searchavailspec($allspec, $spec700084)+
 		searchavailspec($allspec, $spec84)+
+		searchavailspec($allspec, $spec18700084)+
 		searchavailspec($allspec, $spec17700084))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -8152,6 +8315,7 @@ case $type239:
 		case $type217:
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
+		searchavailspec($allspec, $spec18700085)+
 		searchavailspec($allspec, $spec17700085))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -8162,6 +8326,7 @@ case $type239:
 
 		case $type218:
 		if((searchavailspec($allspec, $spec700034)+
+		searchavailspec($allspec, $spec18700034)+
 		searchavailspec($allspec, $spec34))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -8174,6 +8339,7 @@ case $type239:
 		if((searchavailspec($allspec, $spec710113)+
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
+		searchavailspec($allspec, $spec18700113)+
 		searchavailspec($allspec, $spec113))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -9495,8 +9661,24 @@ case $type239:
 			$count=countoverzero(searchavailspec($allspec, $spec17700085),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700061),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700024),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700026),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700030),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700033),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700034),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700057),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700061),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700084),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700085),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700095),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700113),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700276),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700277),$count);
 			
-		if((searchavailspec($allspec, $spec40)+searchavailspec($allspec, $spec700187)+searchavailspec($allspec, $spec188)+searchavailspec($allspec, $spec189)+searchavailspec($allspec, $spec187))<1)
+		if((searchavailspec($allspec, $spec40)+searchavailspec($allspec, $spec700187)+searchavailspec($allspec, $spec188)+searchavailspec($allspec, $spec189)+
+		searchavailspec($allspec, $spec18700187)+
+		searchavailspec($allspec, $spec187))<1)
 		{
 				echo '<div class="red">Нет ни одного руководителя проекта</div>';
 				}						
@@ -9519,6 +9701,7 @@ case $type239:
 		searchavailspec($allspec, $spec145)+
 		searchavailspec($allspec, $spec146)+
 		searchavailspec($allspec, $spec24)+
+		searchavailspec($allspec, $spec18700024)+
 		searchavailspec($allspec, $spec17700024))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -9531,6 +9714,7 @@ case $type239:
 		case $type5935:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -9543,6 +9727,7 @@ case $type239:
 		case $type5936:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -9553,8 +9738,8 @@ case $type239:
 		
 		case $type5686:
 		case $type5937:
-		if(
-		searchavailspec($allspec, $spec277)>0 ){
+		if((searchavailspec($allspec, $spec277)+
+		searchavailspec($allspec, $spec18700277))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
 			else {
@@ -9566,8 +9751,10 @@ case $type239:
 		case $type5938:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026)+
 		searchavailspec($allspec, $spec95)+
+		searchavailspec($allspec, $spec18700095)+
 		searchavailspec($allspec, $spec700095))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -9579,6 +9766,7 @@ case $type239:
 		case $type5688:
 		case $type5939:
 		if((searchavailspec($allspec, $spec700057)+
+		searchavailspec($allspec, $spec18700057)+
 		searchavailspec($allspec, $spec57))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -9591,6 +9779,7 @@ case $type239:
 		case $type5940:
 		if((searchavailspec($allspec, $spec700030)+
 		searchavailspec($allspec, $spec30)+
+		searchavailspec($allspec, $spec18700030)+
 		searchavailspec($allspec, $spec17700030))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -9603,6 +9792,7 @@ case $type239:
 		case $type5941:
 		if((searchavailspec($allspec, $spec700097)+
 		searchavailspec($allspec, $spec97)+
+		searchavailspec($allspec, $spec18700097)+
 		searchavailspec($allspec, $spec17700097))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -9615,6 +9805,7 @@ case $type239:
 		case $type5942:
 		if((searchavailspec($allspec, $spec700033)+
 		searchavailspec($allspec, $spec33)+
+		searchavailspec($allspec, $spec18700033)+
 		searchavailspec($allspec, $spec17700033))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -9627,6 +9818,7 @@ case $type239:
 		case $type5943:
 		if((searchavailspec($allspec, $spec700084)+
 		searchavailspec($allspec, $spec84)+
+		searchavailspec($allspec, $spec18700084)+
 		searchavailspec($allspec, $spec17700084))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -9639,6 +9831,7 @@ case $type239:
 		case $type5944:
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
+		searchavailspec($allspec, $spec18700085)+
 		searchavailspec($allspec, $spec17700085))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -9650,6 +9843,7 @@ case $type239:
 		case $type5694:
 		case $type5945:
 		if((searchavailspec($allspec, $spec700034)+
+		searchavailspec($allspec, $spec18700034)+
 		searchavailspec($allspec, $spec34))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -9662,6 +9856,7 @@ case $type239:
 		if((searchavailspec($allspec, $spec710113)+
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
+		searchavailspec($allspec, $spec18700113)+
 		searchavailspec($allspec, $spec113))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -9672,7 +9867,8 @@ case $type239:
 			
 		case $type5696:
 		case $type5946:
-		if(searchavailspec($allspec, $spec276)>0){
+		if((searchavailspec($allspec, $spec276)+
+		searchavailspec($allspec, $spec18700276))>0){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
 			else {
@@ -9684,6 +9880,7 @@ case $type239:
 		case $type5947:
 		if((searchavailspec($allspec, $spec700061)+
 		searchavailspec($allspec, $spec17700061)+
+		searchavailspec($allspec, $spec18700061)+
 		searchavailspec($allspec, $spec61))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -10994,9 +11191,24 @@ case $type239:
 			$count=countoverzero(searchavailspec($allspec, $spec17700085),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700061),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700024),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700026),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700030),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700033),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700034),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700057),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700061),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700084),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700085),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700095),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700113),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700276),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700277),$count);
 			
 			if((searchavailspec($allspec, $spec40)+
 				searchavailspec($allspec, $spec187)+
+				searchavailspec($allspec, $spec18700187)+
 				searchavailspec($allspec, $spec188)+
 				searchavailspec($allspec, $spec189)+
 				searchavailspec($allspec, $spec700187))<1){
@@ -11020,6 +11232,7 @@ case $type239:
 		searchavailspec($allspec, $spec145)+
 		searchavailspec($allspec, $spec146)+
 		searchavailspec($allspec, $spec24)+
+		searchavailspec($allspec, $spec18700024)+
 		searchavailspec($allspec, $spec17700024))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -11031,6 +11244,7 @@ case $type239:
 		case $type209:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -11042,6 +11256,7 @@ case $type239:
 		case $type210:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -11053,8 +11268,10 @@ case $type239:
 		case $type211:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026)+
 		searchavailspec($allspec, $spec95)+
+		searchavailspec($allspec, $spec18700095)+
 		searchavailspec($allspec, $spec700095))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -11065,6 +11282,7 @@ case $type239:
 		
 		case $type212:
 		if((searchavailspec($allspec, $spec700057)+
+		searchavailspec($allspec, $spec18700057)+
 		searchavailspec($allspec, $spec57))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -11076,6 +11294,7 @@ case $type239:
 		case $type213:
 		if((searchavailspec($allspec, $spec700030)+
 		searchavailspec($allspec, $spec30)+
+		searchavailspec($allspec, $spec18700030)+
 		searchavailspec($allspec, $spec17700030))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -11087,6 +11306,7 @@ case $type239:
 		case $type214:
 		if((searchavailspec($allspec, $spec700097)+
 		searchavailspec($allspec, $spec97)+
+		searchavailspec($allspec, $spec18700097)+
 		searchavailspec($allspec, $spec17700097))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -11098,6 +11318,7 @@ case $type239:
 		case $type215:
 		if((searchavailspec($allspec, $spec700033)+
 		searchavailspec($allspec, $spec33)+
+		searchavailspec($allspec, $spec18700033)+
 		searchavailspec($allspec, $spec17700033))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -11109,6 +11330,7 @@ case $type239:
 		case $type216:
 		if((searchavailspec($allspec, $spec700084)+
 		searchavailspec($allspec, $spec84)+
+		searchavailspec($allspec, $spec18700084)+
 		searchavailspec($allspec, $spec17700084))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -11120,6 +11342,7 @@ case $type239:
 		case $type217:
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
+		searchavailspec($allspec, $spec18700085)+
 		searchavailspec($allspec, $spec17700085))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -11130,6 +11353,7 @@ case $type239:
 
 		case $type218:
 		if((searchavailspec($allspec, $spec700034)+
+		searchavailspec($allspec, $spec18700034)+
 		searchavailspec($allspec, $spec34))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -11142,6 +11366,7 @@ case $type239:
 		if((searchavailspec($allspec, $spec710113)+
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
+		searchavailspec($allspec, $spec18700113)+
 		searchavailspec($allspec, $spec113))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -12460,8 +12685,24 @@ case $type239:
 			$count=countoverzero(searchavailspec($allspec, $spec17700085),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700061),$count);
 			$count=countoverzero(searchavailspec($allspec, $spec17700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700024),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700026),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700030),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700033),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700034),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700057),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700061),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700084),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700085),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700095),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700097),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700113),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700276),$count);
+			$count=countoverzero(searchavailspec($allspec, $spec18700277),$count);
 			
-		if((searchavailspec($allspec, $spec40)+searchavailspec($allspec, $spec700187)+searchavailspec($allspec, $spec188)+searchavailspec($allspec, $spec189)+searchavailspec($allspec, $spec187))<1)
+		if((searchavailspec($allspec, $spec40)+searchavailspec($allspec, $spec700187)+searchavailspec($allspec, $spec188)+searchavailspec($allspec, $spec189)+
+		searchavailspec($allspec, $spec18700187)+
+		searchavailspec($allspec, $spec187))<1)
 		{
 				echo '<div class="red">Нет ни одного руководителя проекта</div>';
 				}								
@@ -12484,6 +12725,7 @@ case $type239:
 		searchavailspec($allspec, $spec145)+
 		searchavailspec($allspec, $spec146)+
 		searchavailspec($allspec, $spec24)+
+		searchavailspec($allspec, $spec18700024)+
 		searchavailspec($allspec, $spec17700024))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -12496,6 +12738,7 @@ case $type239:
 		case $type5935:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -12508,6 +12751,7 @@ case $type239:
 		case $type5936:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec17700026))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -12518,8 +12762,8 @@ case $type239:
 		
 		case $type5686:
 		case $type5937:
-		if(
-		searchavailspec($allspec, $spec277)>0 ){
+		if((searchavailspec($allspec, $spec277)+
+		searchavailspec($allspec, $spec18700277))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
 			else {
@@ -12532,7 +12776,9 @@ case $type239:
 		if((searchavailspec($allspec, $spec700026)+
 		searchavailspec($allspec, $spec26)+
 		searchavailspec($allspec, $spec17700026)+
+		searchavailspec($allspec, $spec18700026)+
 		searchavailspec($allspec, $spec95)+
+		searchavailspec($allspec, $spec18700095)+
 		searchavailspec($allspec, $spec700095))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -12544,6 +12790,7 @@ case $type239:
 		case $type5688:
 		case $type5939:
 		if((searchavailspec($allspec, $spec700057)+
+		searchavailspec($allspec, $spec18700057)+
 		searchavailspec($allspec, $spec57))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -12556,6 +12803,7 @@ case $type239:
 		case $type5940:
 		if((searchavailspec($allspec, $spec700030)+
 		searchavailspec($allspec, $spec30)+
+		searchavailspec($allspec, $spec18700030)+
 		searchavailspec($allspec, $spec17700030))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -12568,6 +12816,7 @@ case $type239:
 		case $type5941:
 		if((searchavailspec($allspec, $spec700097)+
 		searchavailspec($allspec, $spec97)+
+		searchavailspec($allspec, $spec18700097)+
 		searchavailspec($allspec, $spec17700097))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -12580,6 +12829,7 @@ case $type239:
 		case $type5942:
 		if((searchavailspec($allspec, $spec700033)+
 		searchavailspec($allspec, $spec33)+
+		searchavailspec($allspec, $spec18700033)+
 		searchavailspec($allspec, $spec17700033))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -12592,6 +12842,7 @@ case $type239:
 		case $type5943:
 		if((searchavailspec($allspec, $spec700084)+
 		searchavailspec($allspec, $spec84)+
+		searchavailspec($allspec, $spec18700084)+
 		searchavailspec($allspec, $spec17700084))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -12604,6 +12855,7 @@ case $type239:
 		case $type5944:
 		if((searchavailspec($allspec, $spec700085)+
 		searchavailspec($allspec, $spec85)+
+		searchavailspec($allspec, $spec18700085)+
 		searchavailspec($allspec, $spec17700085))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -12615,6 +12867,7 @@ case $type239:
 		case $type5694:
 		case $type5945:
 		if((searchavailspec($allspec, $spec700034)+
+		searchavailspec($allspec, $spec18700034)+
 		searchavailspec($allspec, $spec34))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -12627,6 +12880,7 @@ case $type239:
 		if((searchavailspec($allspec, $spec710113)+
 		searchavailspec($allspec, $spec20113)+
 		searchavailspec($allspec, $spec700113)+
+		searchavailspec($allspec, $spec18700113)+
 		searchavailspec($allspec, $spec113))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
@@ -12637,7 +12891,8 @@ case $type239:
 		
 		case $type5696:
 		case $type5946:
-		if(searchavailspec($allspec, $spec276)>0){
+		if((searchavailspec($allspec, $spec276)+
+		searchavailspec($allspec, $spec18700276))>0){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
 			else {
@@ -12649,6 +12904,7 @@ case $type239:
 		case $type5947:
 		if((searchavailspec($allspec, $spec700061)+
 		searchavailspec($allspec, $spec17700061)+
+		searchavailspec($allspec, $spec18700061)+
 		searchavailspec($allspec, $spec61))>0 ){
 			echo '<div class="green">СООТВЕТСТВУЕТ</div>';
 				}
